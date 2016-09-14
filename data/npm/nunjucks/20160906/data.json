@@ -1,0 +1,25 @@
+{
+	"title": "Content & Code Injection (XSS)",
+	"credit": [
+		"Matt Austin"
+	],
+	"creationTime": "2016-09-06T22:59:30.000Z",
+	"modificationTime": "2016-09-09T22:59:30.000Z",
+	"publicationTime": "2016-09-09T22:59:30.000Z",
+	"disclosureTime": "2016-09-06T22:59:30.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<2.4.3",
+    "unaffected": ">=2.4.3"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": []
+	},
+	"patches": [],
+	"moduleName": "nunjucks"
+}

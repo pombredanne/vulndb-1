@@ -15,7 +15,7 @@
 	"severity": "high",
 	"identifiers": {
 		"CWE": [
-			"CWE-94"
+			"CWE-79"
 		],
 		"CVE": [],
 		"NSP": 101

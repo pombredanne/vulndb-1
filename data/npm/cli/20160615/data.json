@@ -1,0 +1,26 @@
+{
+	"title": "Insecure use of /tmp folder",
+	"credit": [
+		"Steve Kemp"
+	],
+	"creationTime": "2016-06-16T00:00:02.709Z",
+	"modificationTime": "2016-06-16T00:00:02.709Z",
+	"publicationTime": "2016-08-27T23:22:22.000Z",
+	"disclosureTime": "2015-12-28T18:28:58.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.0.0",
+		"unaffected": ">=1.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-59"
+		],
+		"CVE": [],
+		"NSP": 95
+	},
+	"patches": [],
+	"moduleName": "cli"
+}
