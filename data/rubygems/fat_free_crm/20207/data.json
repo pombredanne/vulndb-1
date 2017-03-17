@@ -1,0 +1,34 @@
+{
+	"title": "Cross-Site Request Forgery (CSRF/XSRF)",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "fat_free_crm",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.13.6"
+		],
+		"vulnerable": [
+			"< 0.13.6"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-1585"
+		],
+		"OSVDB": [
+			"OSVDB-118465"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:52.000Z",
+	"modificationTime": "2016-09-21T12:36:52.000Z",
+	"publicationTime": "2015-02-15T22:00:00.000Z",
+	"disclosureTime": "2015-02-15T22:00:00.000Z",
+	"id": "SNYK-RUBY-FATFREECRM-20207"
+}

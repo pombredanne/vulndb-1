@@ -1,0 +1,30 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "jquery",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"ALTERNATIVE": [
+			"SNYK-JS-JQUERY-10184"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.9.0",
+		"vulnerable": "<1.9.0 >=1.7.1"
+	},
+	"credit": [
+		"Richard Gibson"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2012-06-19T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-10-20T14:16:53.138Z",
+	"modificationTime": "2016-11-06T13:53:57.686Z",
+	"creationTime": "2016-11-06T13:53:57.686Z",
+	"id": "npm:jquery:20120206"
+}

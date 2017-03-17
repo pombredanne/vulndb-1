@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Larry W. Cashdollar"
+	],
+	"description": "file://README.md",
+	"moduleName": "cremefraiche",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.6.1"
+		],
+		"vulnerable": [
+			"< 0.6.1"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-2090"
+		],
+		"OSVDB": [
+			"OSVDB-93395"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:48.000Z",
+	"modificationTime": "2016-09-21T12:36:48.000Z",
+	"publicationTime": "2013-05-13T21:00:00.000Z",
+	"disclosureTime": "2013-05-13T21:00:00.000Z",
+	"id": "SNYK-RUBY-CREMEFRAICHE-20096"
+}

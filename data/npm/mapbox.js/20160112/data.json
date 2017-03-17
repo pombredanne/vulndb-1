@@ -1,7 +1,7 @@
 {
 	"title": "Content Injection via TileJSON Name",
 	"credit": [
-		"Alexandra Ulsh"
+		"Abdullah (enderun07)"
 	],
 	"creationTime": "2016-01-14T09:03:36.375Z",
 	"modificationTime": "2016-01-14T09:03:36.375Z",
@@ -11,16 +11,22 @@
 		"vulnerable": "<1.6.6 || < 2.2.4 > 2.0.0",
 		"unaffected": ">=1.6.6 <2.0.0 || >= 2.2.4"
 	},
-	"CVSSv3": "",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N",
 	"severity": "low",
 	"identifiers": {
 		"CWE": [
 			"CWE-74"
 		],
 		"CVE": [],
-		"NSP": 74
+		"NSP": 74,
+		"ALTERNATIVE": [
+			"SNYK-JS-MAPBOXJS-10077"
+		]
 	},
 	"patches": [],
 	"moduleName": "mapbox.js",
-	"disclosureTime": "2016-01-12T23:35:56.853Z"
+	"disclosureTime": "2016-01-12T23:35:56.853Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:mapbox.js:20160112"
 }

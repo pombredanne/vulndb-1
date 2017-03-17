@@ -1,0 +1,33 @@
+{
+	"title": "Local Plaintext Password Disclosure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "kcapifony",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2014-5001"
+		],
+		"OSVDB": [
+			"OSVDB-108571"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:56.000Z",
+	"modificationTime": "2016-09-21T12:36:56.000Z",
+	"publicationTime": "2014-06-29T21:00:00.000Z",
+	"disclosureTime": "2014-06-29T21:00:00.000Z",
+	"id": "SNYK-RUBY-KCAPIFONY-20174"
+}

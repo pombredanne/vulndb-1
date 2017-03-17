@@ -18,12 +18,18 @@
 		"CVE": [
 			"CVE-2014-7193"
 		],
-		"NSP": 4
+		"NSP": 4,
+		"ALTERNATIVE": [
+			"SNYK-JS-CRUMB-10018"
+		]
 	},
 	"patches": [],
 	"moduleName": "crumb",
 	"creationTime": "2014-08-01T06:40:57.000Z",
 	"publicationTime": "2014-08-01T06:40:57.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2014-08-01T06:40:57.000Z"
+	"disclosureTime": "2014-08-01T06:40:57.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:crumb:20140801"
 }

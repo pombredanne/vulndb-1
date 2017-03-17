@@ -1,0 +1,29 @@
+{
+	"title": "Denial of Service (DoS) via Infinite Loop",
+	"moduleName": "mongoose",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-MONGOOSE-10216"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=4.1.10",
+		"vulnerable": "<4.1.10 >=4.0.0"
+	},
+	"credit": [
+		"andiris29"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"disclosureTime": "2015-09-24T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-13T08:55:28.055Z",
+	"modificationTime": "2016-11-24T08:55:28.055Z",
+	"creationTime": "2016-11-24T08:55:28.055Z",
+	"id": "npm:mongoose:20150925"
+}

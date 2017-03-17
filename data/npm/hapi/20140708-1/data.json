@@ -15,7 +15,10 @@
 		"CVE": [
 			"CVE-2014-4671"
 		],
-		"NSP": 12
+		"NSP": 12,
+		"ALTERNATIVE": [
+			"SNYK-JS-HAPI-10016"
+		]
 	},
 	"patches": [
 		{
@@ -34,5 +37,8 @@
 	"creationTime": "2014-07-08T06:33:48.000Z",
 	"publicationTime": "2014-07-08T06:33:48.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2014-07-08T06:33:48.000Z"
+	"disclosureTime": "2014-07-08T06:33:48.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:hapi:20140708-1"
 }

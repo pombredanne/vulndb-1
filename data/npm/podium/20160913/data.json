@@ -1,0 +1,29 @@
+{
+	"title": "Denial of Service (DoS)",
+	"moduleName": "podium",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-PODIUM-10219"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=1.2.5",
+		"vulnerable": "<1.2.5 >=1.2.2"
+	},
+	"credit": [
+		"Mark Reynolds"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"disclosureTime": "2016-09-12T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-20T15:04:57.337Z",
+	"modificationTime": "2016-11-30T13:48:57.337Z",
+	"creationTime": "2016-11-30T13:48:57.337Z",
+	"id": "npm:podium:20160913"
+}

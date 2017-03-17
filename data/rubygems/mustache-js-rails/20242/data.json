@@ -1,0 +1,33 @@
+{
+	"title": "Cross-site scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "mustache-js-rails",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 2.0.3"
+		],
+		"vulnerable": [
+			"< 2.0.3"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"OSVDB": [
+			"OSVDB-131671"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:59.000Z",
+	"modificationTime": "2016-09-21T12:36:59.000Z",
+	"publicationTime": "2015-11-16T22:00:00.000Z",
+	"disclosureTime": "2015-11-16T22:00:00.000Z",
+	"id": "SNYK-RUBY-MUSTACHEJSRAILS-20242"
+}

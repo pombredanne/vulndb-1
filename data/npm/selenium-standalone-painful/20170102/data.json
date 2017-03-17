@@ -1,0 +1,30 @@
+{
+	"title": "Downloads Resources over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2017-01-02T04:36:49.000Z",
+	"modificationTime": "2017-01-02T04:36:49.000Z",
+	"publicationTime": "2017-01-04T04:26:31.000Z",
+	"disclosureTime": "2017-01-02T04:36:49.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 284,
+		"ALTERNATIVE": [
+			"SNYK-JS-SELENIUMSTANDALONEPAINFUL-10333"
+		]
+	},
+	"patches": [],
+	"moduleName": "selenium-standalone-painful",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:selenium-standalone-painful:20170102"
+}

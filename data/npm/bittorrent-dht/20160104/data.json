@@ -19,9 +19,15 @@
 			"CWE-201"
 		],
 		"CVE": [],
-		"NSP": 68
+		"NSP": 68,
+		"ALTERNATIVE": [
+			"SNYK-JS-BITTORRENTDHT-10071"
+		]
 	},
 	"patches": [],
 	"moduleName": "bittorrent-dht",
-	"disclosureTime": "2016-01-04T19:52:32.207Z"
+	"disclosureTime": "2016-01-04T19:52:32.207Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:bittorrent-dht:20160104"
 }

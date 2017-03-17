@@ -1,0 +1,31 @@
+{
+	"title": "Arbitrary File Access",
+	"credit": [
+		"Bart Kamphorst"
+	],
+	"description": "file://README.md",
+	"moduleName": "gollum",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 4.0.1"
+		],
+		"vulnerable": [
+			"< 4.0.1"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-7314"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:L/A:N",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:54.000Z",
+	"modificationTime": "2016-09-21T12:36:54.000Z",
+	"publicationTime": "2015-09-19T21:00:00.000Z",
+	"disclosureTime": "2015-09-19T21:00:00.000Z",
+	"id": "SNYK-RUBY-GOLLUM-20240"
+}

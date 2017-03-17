@@ -1,0 +1,32 @@
+{
+	"title": "Denial of Service",
+	"moduleName": "uws",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"NSP": 149,
+		"ALTERNATIVE": [
+			"SNYK-JS-UWS-10156"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=0.10.9",
+		"vulnerable": "<0.10.9 >=0.10.0"
+	},
+	"credit": [
+		"Luigi Pinca"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"disclosureTime": "2016-10-13T07:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-10-17T22:33:27.772Z",
+	"modificationTime": "2016-10-17T22:33:27.772Z",
+	"creationTime": "2016-10-14T22:33:27.772Z",
+	"id": "npm:uws:20161013"
+}

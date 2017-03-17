@@ -18,9 +18,15 @@
 			"CWE-352"
 		],
 		"CVE": [],
-		"NSP": 91
+		"NSP": 91,
+		"ALTERNATIVE": [
+			"SNYK-JS-DROPPY-10092"
+		]
 	},
 	"patches": [],
 	"moduleName": "droppy",
-	"disclosureTime": "2016-03-28T22:40:54.000Z"
+	"disclosureTime": "2016-03-28T22:40:54.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:droppy:20160328"
 }

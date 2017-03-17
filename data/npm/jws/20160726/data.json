@@ -19,8 +19,14 @@
 			"CWE-310"
 		],
 		"CVE": [],
-		"NSP": 88
+		"NSP": 88,
+		"ALTERNATIVE": [
+			"SNYK-JS-JWS-10125"
+		]
 	},
 	"patches": [],
-	"moduleName": "jws"
+	"moduleName": "jws",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jws:20160726"
 }

@@ -1,0 +1,31 @@
+{
+	"title": "Sensitive Information Disclosure",
+	"credit": [
+		"Larry W. Cashdollar"
+	],
+	"description": "file://README.md",
+	"moduleName": "xaviershay-dm-rails",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-2179"
+		],
+		"OSVDB": [
+			"OSVDB-118579"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:12.000Z",
+	"modificationTime": "2016-09-21T12:37:12.000Z",
+	"publicationTime": "2015-02-16T22:00:00.000Z",
+	"disclosureTime": "2015-02-16T22:00:00.000Z",
+	"id": "SNYK-RUBY-XAVIERSHAYDMRAILS-20208"
+}

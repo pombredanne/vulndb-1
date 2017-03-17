@@ -4,23 +4,29 @@
 		"Sébastian Dejonghe"
 	],
 	"creationTime": "2016-01-05T12:38:01.749Z",
-	"modificationTime": "2016-01-05T12:38:01.749Z",
+	"modificationTime": "2016-12-27T12:38:01.749Z",
 	"publicationTime": "2016-01-05T12:38:01.749Z",
 	"description": "file://README.md",
 	"semver": {
-		"vulnerable": "<=v2.0.0-alpha7",
-		"unaffected": ">=v2.0.0-alpha8"
+		"vulnerable": ">=v2.0.0-alpha <v2.0.0-alpha8",
+		"unaffected": ">=v2.0.0-alpha8 || <v2.0.0-alpha"
 	},
-	"CVSSv3": "",
-	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-89"
 		],
 		"CVE": [],
-		"NSP": 66
+		"NSP": 66,
+		"ALTERNATIVE": [
+			"SNYK-JS-MYSQL-10073"
+		]
 	},
 	"patches": [],
 	"moduleName": "mysql",
-	"disclosureTime": "2015-12-28T18:37:37.178Z"
+	"disclosureTime": "2015-12-28T18:37:37.178Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:mysql:20151228"
 }

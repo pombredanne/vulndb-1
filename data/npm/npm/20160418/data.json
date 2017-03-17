@@ -21,9 +21,15 @@
 			"CWE-200"
 		],
 		"CVE": [],
-		"NSP": 98
+		"NSP": 98,
+		"ALTERNATIVE": [
+			"SNYK-JS-NPM-10100"
+		]
 	},
 	"patches": [],
 	"moduleName": "npm",
-	"disclosureTime": "2016-04-18T21:16:44.000Z"
+	"disclosureTime": "2016-04-18T21:16:44.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:npm:20160418"
 }

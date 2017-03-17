@@ -1,0 +1,31 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "fastreader",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-2615"
+		],
+		"OSVDB": [
+			"OSVDB-91232"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:51.000Z",
+	"modificationTime": "2016-09-21T12:36:51.000Z",
+	"publicationTime": "2013-03-12T22:00:00.000Z",
+	"disclosureTime": "2013-03-12T22:00:00.000Z",
+	"id": "SNYK-RUBY-FASTREADER-20085"
+}

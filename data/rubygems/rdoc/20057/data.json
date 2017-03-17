@@ -1,0 +1,40 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Evgeny Ermakov"
+	],
+	"description": "file://README.md",
+	"moduleName": "rdoc",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 3.9.5",
+			"~> 3.12.1",
+			">= 4.0"
+		],
+		"vulnerable": [
+			"< 4.0, >= 3.13",
+			"< 3.12.1, >= 3.10",
+			"< 3.9.5"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2013-0256"
+		],
+		"OSVDB": [
+			"OSVDB-90004"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:04.000Z",
+	"modificationTime": "2016-09-21T12:37:04.000Z",
+	"publicationTime": "2013-02-05T22:00:00.000Z",
+	"disclosureTime": "2013-02-05T22:00:00.000Z",
+	"id": "SNYK-RUBY-RDOC-20057"
+}

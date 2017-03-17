@@ -1,0 +1,36 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "nokogiri",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 1.6.8"
+		],
+		"unaffected": [
+			"< 1.6.0"
+		],
+		"vulnerable": [
+			"< 1.6.8, >= 1.6.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2015-8806"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:37:00.000Z",
+	"modificationTime": "2016-09-21T12:37:00.000Z",
+	"publicationTime": "2016-06-06T21:00:00.000Z",
+	"disclosureTime": "2016-06-06T21:00:00.000Z",
+	"id": "SNYK-RUBY-NOKOGIRI-20277"
+}

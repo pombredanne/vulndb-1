@@ -1,0 +1,40 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Aaron Patterson"
+	],
+	"description": "file://README.md",
+	"moduleName": "actionpack",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 5.0.0.beta1.1",
+			"~> 4.2.5, >= 4.2.5.1",
+			"~> 4.1.14, >= 4.1.14.1",
+			"~> 3.2.22.1"
+		],
+		"vulnerable": [
+			"< 5.0.0.beta1.1, >= 4.3",
+			"< 4.2.5.1, >= 4.2",
+			"< 4.1.14.1, >= 3.2.23",
+			"< 3.2.22.1"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400",
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-0751"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"creationTime": "2016-09-21T12:36:39.000Z",
+	"modificationTime": "2016-09-21T12:36:39.000Z",
+	"publicationTime": "2016-01-24T22:00:00.000Z",
+	"disclosureTime": "2016-01-24T22:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIONPACK-20256"
+}

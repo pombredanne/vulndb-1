@@ -1,0 +1,31 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "jquery-migrate",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-JQUERYMIGRATE-10197"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.2.1",
+		"vulnerable": "<1.2.1"
+	},
+	"credit": [
+		"Mario Heiderich"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2013-04-18T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-26T09:46:52.647Z",
+	"modificationTime": "2016-12-26T09:46:52.647Z",
+	"creationTime": "2016-12-26T09:46:52.647Z",
+	"id": "npm:jquery-migrate:20130419"
+}

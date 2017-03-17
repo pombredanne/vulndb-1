@@ -15,7 +15,10 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 61
+		"NSP": 61,
+		"ALTERNATIVE": [
+			"SNYK-JS-HANDLEBARS-10068"
+		]
 	},
 	"patches": [
 		{
@@ -34,5 +37,8 @@
 	"creationTime": "2015-12-14T23:52:16.811Z",
 	"modificationTime": "2015-12-14T23:52:16.811Z",
 	"publicationTime": "2015-12-14T23:52:16.811Z",
-	"disclosureTime": "2015-12-07T16:52:07.962Z"
+	"disclosureTime": "2015-12-07T16:52:07.962Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:handlebars:20151207"
 }

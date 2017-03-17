@@ -5,7 +5,7 @@
 	],
 	"creationTime": "2015-11-06T02:09:36.182Z",
 	"modificationTime": "2015-11-06T02:09:36.182Z",
-	"publicationTime": "2015-11-03T07:15:12.900Z",
+	"publicationTime": "2015-11-06T02:09:36.182Z",
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "<2.0.0",
@@ -16,11 +16,11 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-		"NSP": 57
+		"NSP": 57,
+		"ALTERNATIVE": [
+			"SNYK-JS-TAR-10055"
+		]
 	},
-	"info": [
-		"https://nodesecurity.io/advisories/57"
-	],
 	"patches": [
 		{
 			"urls": [
@@ -45,5 +45,9 @@
 			"id": "patch:npm:tar:20151103:1"
 		}
 	],
-	"moduleName": "tar"
+	"moduleName": "tar",
+	"disclosureTime": "2015-11-03T07:15:12.900Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:tar:20151103"
 }

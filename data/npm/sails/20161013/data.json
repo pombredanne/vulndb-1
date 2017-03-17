@@ -1,0 +1,30 @@
+{
+	"title": "Broken CORS",
+	"moduleName": "sails",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 148,
+		"ALTERNATIVE": [
+			"SNYK-JS-SAILS-10159"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">0.12.7",
+		"vulnerable": "<=0.12.7"
+	},
+	"credit": [
+		"Evan Johnson"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+	"disclosureTime": "2016-10-13T07:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-10-20T00:00:00.000Z",
+	"modificationTime": "2016-10-20T00:00:00.000Z",
+	"creationTime": "2016-10-14T22:59:55.112Z",
+	"id": "npm:sails:20161013"
+}

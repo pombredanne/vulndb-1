@@ -17,8 +17,14 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-		"NSP": 136
+		"NSP": 136,
+		"ALTERNATIVE": [
+			"SNYK-JS-NODEKRB5-10128"
+		]
 	},
 	"patches": [],
-	"moduleName": "node-krb5"
+	"moduleName": "node-krb5",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:node-krb5:20160804"
 }

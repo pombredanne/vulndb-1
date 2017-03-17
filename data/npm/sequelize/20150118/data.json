@@ -18,7 +18,10 @@
 		"CVE": [
 			"CVE-2015-1369"
 		],
-		"NSP": 33
+		"NSP": 33,
+		"ALTERNATIVE": [
+			"SNYK-JS-SEQUELIZE-10033"
+		]
 	},
 	"patches": [
 		{
@@ -35,5 +38,8 @@
 	"creationTime": "2015-01-18T20:00:00.000Z",
 	"publicationTime": "2015-01-18T20:00:00.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2015-01-18T20:00:00.000Z"
+	"disclosureTime": "2015-01-18T20:00:00.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:sequelize:20150118"
 }

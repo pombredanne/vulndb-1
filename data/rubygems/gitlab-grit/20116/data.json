@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"joernchen"
+	],
+	"description": "file://README.md",
+	"moduleName": "gitlab-grit",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 2.6.1"
+		],
+		"vulnerable": [
+			"< 2.6.1"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-4489"
+		],
+		"OSVDB": [
+			"OSVDB-99370"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:53.000Z",
+	"modificationTime": "2016-09-21T12:36:53.000Z",
+	"publicationTime": "2013-11-03T22:00:00.000Z",
+	"disclosureTime": "2013-11-03T22:00:00.000Z",
+	"id": "SNYK-RUBY-GITLABGRIT-20116"
+}

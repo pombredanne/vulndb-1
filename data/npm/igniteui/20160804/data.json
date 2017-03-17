@@ -1,0 +1,30 @@
+{
+	"title": "Resources downloaded over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2016-08-04T03:44:13.902Z",
+	"modificationTime": "2016-08-04T03:44:13.902Z",
+	"publicationTime": "2016-10-31T00:00:00.000Z",
+	"disclosureTime": "2016-10-31T00:00:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.0.5",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:A/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 116,
+		"ALTERNATIVE": [
+			"SNYK-JS-IGNITEUI-10167"
+		]
+	},
+	"patches": [],
+	"moduleName": "igniteui",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:igniteui:20160804"
+}

@@ -1,0 +1,31 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Tim McLean"
+	],
+	"creationTime": "2016-09-14T00:00:00.00Z",
+	"modificationTime": "2016-09-14T00:00:00.00Z",
+	"publicationTime": "2016-10-20T18:30:00.00Z",
+	"disclosureTime": "2016-03-31T00:00:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=2.0.0",
+		"unaffected": ">=2.0.1"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-592"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-JSJWS-10157"
+		]
+	},
+	"patches": [],
+	"moduleName": "jsjws",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jsjws:20150531"
+}

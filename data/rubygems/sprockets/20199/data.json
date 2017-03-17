@@ -1,0 +1,62 @@
+{
+	"title": "Arbitrary File Existence Exposure",
+	"credit": [
+		"Eaden McKee",
+		"Dennis Hackethal",
+		"Christian Hansen",
+		"Juan C. Müller",
+		"Mike McClurg",
+		"Alex Ianus"
+	],
+	"description": "file://README.md",
+	"moduleName": "sprockets",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 2.0.5",
+			"~> 2.1.4",
+			"~> 2.2.3",
+			"~> 2.3.3",
+			"~> 2.4.6",
+			"~> 2.5.1",
+			"~> 2.7.1",
+			"~> 2.8.3",
+			"~> 2.9.4",
+			"~> 2.10.2",
+			"~> 2.11.3",
+			"~> 2.12.3",
+			">= 3.0.0.beta.3"
+		],
+		"vulnerable": [
+			"< 3.0.0.beta.3, >= 2.13",
+			"< 2.12.3, >= 2.12",
+			"< 2.11.3, >= 2.11",
+			"< 2.10.2, >= 2.10",
+			"< 2.9.4, >= 2.9",
+			"< 2.8.3, >= 2.8",
+			"< 2.7.1, >= 2.6",
+			"< 2.5.1, >= 2.5",
+			"< 2.4.6, >= 2.4",
+			"< 2.3.3, >= 2.3",
+			"< 2.2.3, >= 2.2",
+			"< 2.1.4, >= 2.1",
+			"< 2.0.5"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2014-7819"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"creationTime": "2016-09-21T12:37:10.000Z",
+	"modificationTime": "2016-09-21T12:37:10.000Z",
+	"publicationTime": "2014-10-29T22:00:00.000Z",
+	"disclosureTime": "2014-10-29T22:00:00.000Z",
+	"id": "SNYK-RUBY-SPROCKETS-20199"
+}

@@ -1,0 +1,33 @@
+{
+	"title": "Sensitive Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "doorkeeper",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 1.4.2",
+			">= 2.1.2"
+		],
+		"vulnerable": [
+			"< 2.1.2, >= 1.5",
+			"< 1.4.2"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"OSVDB": [
+			"OSVDB-118830"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:H/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "low",
+	"creationTime": "2016-09-21T12:36:49.000Z",
+	"modificationTime": "2016-09-21T12:36:49.000Z",
+	"publicationTime": "2015-02-09T22:00:00.000Z",
+	"disclosureTime": "2015-02-09T22:00:00.000Z",
+	"id": "SNYK-RUBY-DOORKEEPER-20206"
+}

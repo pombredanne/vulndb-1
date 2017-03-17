@@ -10,7 +10,7 @@
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "<2.4.3",
-    "unaffected": ">=2.4.3"
+		"unaffected": ">=2.4.3"
 	},
 	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N",
 	"severity": "high",
@@ -18,8 +18,15 @@
 		"CWE": [
 			"CWE-79"
 		],
-		"CVE": []
+		"CVE": [],
+		"NSP": 147,
+		"ALTERNATIVE": [
+			"SNYK-JS-NUNJUCKS-10135"
+		]
 	},
 	"patches": [],
-	"moduleName": "nunjucks"
+	"moduleName": "nunjucks",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:nunjucks:20160906"
 }

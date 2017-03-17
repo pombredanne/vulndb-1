@@ -1,0 +1,31 @@
+{
+	"title": "Arbitrary Command Execution via Windows Shell Escaping",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "dragonfly",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.9.6"
+		],
+		"vulnerable": [
+			"< 0.9.6"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"OSVDB": [
+			"OSVDB-97854"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"creationTime": "2016-09-21T12:36:50.000Z",
+	"modificationTime": "2016-09-21T12:36:50.000Z",
+	"publicationTime": "2011-08-31T21:00:00.000Z",
+	"disclosureTime": "2011-08-31T21:00:00.000Z",
+	"id": "SNYK-RUBY-DRAGONFLY-20016"
+}

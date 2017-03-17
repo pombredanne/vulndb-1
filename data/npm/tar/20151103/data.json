@@ -16,7 +16,10 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-		"NSP": 57
+		"NSP": 57,
+		"ALTERNATIVE": [
+			"SNYK-JS-TAR-10055"
+		]
 	},
 	"patches": [
 		{
@@ -43,5 +46,8 @@
 		}
 	],
 	"moduleName": "tar",
-	"disclosureTime": "2015-11-03T07:15:12.900Z"
+	"disclosureTime": "2015-11-03T07:15:12.900Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:tar:20151103"
 }

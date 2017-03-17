@@ -1,0 +1,31 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "jquery-mobile",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-JQUERYMOBILE-10199"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.2.0",
+		"vulnerable": "<1.2.0"
+	},
+	"credit": [
+		"Masato Kinugawa"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"disclosureTime": "2012-08-01T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-26T11:28:34.624Z",
+	"modificationTime": "2016-12-26T11:28:34.624Z",
+	"creationTime": "2016-11-09T11:28:34.624Z",
+	"id": "npm:jquery-mobile:20120802"
+}

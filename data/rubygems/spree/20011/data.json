@@ -1,0 +1,38 @@
+{
+	"title": "Information Disclosure",
+	"credit": [
+		"Gabriel Quadros"
+	],
+	"description": "file://README.md",
+	"moduleName": "spree",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 0.11.2",
+			">= 0.30.0"
+		],
+		"vulnerable": [
+			"< 0.30.0, >= 0.12",
+			"< 0.11.2"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2010-3978"
+		],
+		"OSVDB": [
+			"OSVDB-69098"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:08.000Z",
+	"modificationTime": "2016-09-21T12:37:08.000Z",
+	"publicationTime": "2010-11-01T22:00:00.000Z",
+	"disclosureTime": "2010-11-01T22:00:00.000Z",
+	"id": "SNYK-RUBY-SPREE-20011"
+}

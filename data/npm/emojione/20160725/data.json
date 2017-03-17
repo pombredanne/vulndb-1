@@ -19,8 +19,14 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 129
+		"NSP": 129,
+		"ALTERNATIVE": [
+			"SNYK-JS-EMOJIONE-10121"
+		]
 	},
 	"patches": [],
-	"moduleName": "emojione"
+	"moduleName": "emojione",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:emojione:20160725"
 }

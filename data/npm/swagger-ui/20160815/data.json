@@ -19,8 +19,14 @@
 			"CWE-80"
 		],
 		"CVE": [],
-		"NSP": 137
+		"NSP": 137,
+		"ALTERNATIVE": [
+			"SNYK-JS-SWAGGERUI-10129"
+		]
 	},
 	"patches": [],
-	"moduleName": "swagger-ui"
+	"moduleName": "swagger-ui",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:swagger-ui:20160815"
 }

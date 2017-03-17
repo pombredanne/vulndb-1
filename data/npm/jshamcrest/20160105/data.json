@@ -18,9 +18,15 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 53
+		"NSP": 53,
+		"ALTERNATIVE": [
+			"SNYK-JS-JSHAMCREST-10075"
+		]
 	},
 	"patches": [],
 	"moduleName": "jshamcrest",
-	"disclosureTime": "2016-01-05T23:05:18.308Z"
+	"disclosureTime": "2016-01-05T23:05:18.308Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jshamcrest:20160105"
 }

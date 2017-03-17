@@ -1,0 +1,36 @@
+{
+	"title": "Remote Code Execution",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "activerecord",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 2.3.17",
+			">= 3.1.0"
+		],
+		"vulnerable": [
+			"< 3.1.0, >= 2.4",
+			"< 2.3.17"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-0277"
+		],
+		"OSVDB": [
+			"OSVDB-90073"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:43.000Z",
+	"modificationTime": "2016-09-21T12:36:43.000Z",
+	"publicationTime": "2013-02-10T22:00:00.000Z",
+	"disclosureTime": "2013-02-10T22:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIVERECORD-20061"
+}

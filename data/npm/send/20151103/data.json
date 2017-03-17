@@ -16,7 +16,10 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-		"NSP": 56
+		"NSP": 56,
+		"ALTERNATIVE": [
+			"SNYK-JS-SEND-10056"
+		]
 	},
 	"patches": [
 		{
@@ -33,5 +36,8 @@
 		}
 	],
 	"moduleName": "send",
-	"disclosureTime": "2015-11-03T07:12:20.676Z"
+	"disclosureTime": "2015-11-03T07:12:20.676Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:send:20151103"
 }

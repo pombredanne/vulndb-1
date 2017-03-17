@@ -20,9 +20,15 @@
 		"CVE": [
 			"CVE-2016-3942"
 		],
-		"NSP": 97
+		"NSP": 97,
+		"ALTERNATIVE": [
+			"SNYK-JS-JSRENDER-10093"
+		]
 	},
 	"patches": [],
 	"moduleName": "jsrender",
-	"disclosureTime": "2016-03-30T22:25:57.000Z"
+	"disclosureTime": "2016-03-30T22:25:57.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jsrender:20160330"
 }

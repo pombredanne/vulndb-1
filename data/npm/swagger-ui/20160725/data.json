@@ -4,12 +4,12 @@
 		"Joe Vennix"
 	],
 	"creationTime": "2016-07-25T22:53:17.243Z",
-	"modificationTime": "2016-07-25T22:53:17.243Z",
+	"modificationTime": "2016-09-11T20:00:03.160Z",
 	"publicationTime": "2016-07-25T16:25:23.000Z",
 	"disclosureTime": "2016-07-25T16:25:23.000Z",
 	"description": "file://README.md",
 	"semver": {
-		"vulnerable": "2.1.4",
+		"vulnerable": "<=2.1.4",
 		"unaffected": ">=2.1.5"
 	},
 	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
@@ -19,8 +19,14 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 131
+		"NSP": 131,
+		"ALTERNATIVE": [
+			"SNYK-JS-SWAGGERUI-10122"
+		]
 	},
 	"patches": [],
-	"moduleName": "swagger-ui"
+	"moduleName": "swagger-ui",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:swagger-ui:20160725"
 }

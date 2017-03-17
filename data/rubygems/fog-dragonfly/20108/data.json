@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Larry W. Cashdollar"
+	],
+	"description": "file://README.md",
+	"moduleName": "fog-dragonfly",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.8.4"
+		],
+		"vulnerable": [
+			"< 0.8.4"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-5671"
+		],
+		"OSVDB": [
+			"OSVDB-96798"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:53.000Z",
+	"modificationTime": "2016-09-21T12:36:53.000Z",
+	"publicationTime": "2013-09-02T21:00:00.000Z",
+	"disclosureTime": "2013-09-02T21:00:00.000Z",
+	"id": "SNYK-RUBY-FOGDRAGONFLY-20108"
+}

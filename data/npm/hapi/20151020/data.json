@@ -16,9 +16,15 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-		"NSP": 45
+		"NSP": 45,
+		"ALTERNATIVE": [
+			"SNYK-JS-HAPI-10063"
+		]
 	},
 	"patches": [],
 	"moduleName": "hapi",
-	"disclosureTime": "2015-10-20T18:29:09.702Z"
+	"disclosureTime": "2015-10-20T18:29:09.702Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:hapi:20151020"
 }

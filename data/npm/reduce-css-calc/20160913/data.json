@@ -1,0 +1,32 @@
+{
+	"title": "Arbitrary Code Injection",
+	"credit": [
+		"Сковорода Никита Андреевич (ChALkeR)"
+	],
+	"creationTime": "2016-09-13T00:00:00.000Z",
+	"modificationTime": "2016-10-17T00:00:00.000Z",
+	"publicationTime": "2016-10-17T00:00:00.000Z",
+	"disclosureTime": "2016-08-20T00:00:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.2.5",
+		"unaffected": ">=1.2.5"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [],
+		"NSP": 144,
+		"ALTERNATIVE": [
+			"SNYK-JS-REDUCECSSCALC-10152"
+		]
+	},
+	"patches": [],
+	"moduleName": "reduce-css-calc",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:reduce-css-calc:20160913"
+}

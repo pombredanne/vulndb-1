@@ -16,9 +16,15 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-		"NSP": 75
+		"NSP": 75,
+		"ALTERNATIVE": [
+			"SNYK-JS-MQTTPACKET-10078"
+		]
 	},
 	"patches": [],
 	"moduleName": "mqtt-packet",
-	"disclosureTime": "2016-01-15T17:01:49.053Z"
+	"disclosureTime": "2016-01-15T17:01:49.053Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:mqtt-packet:20160115"
 }

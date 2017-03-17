@@ -1,0 +1,31 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Hiroshi Nakamura"
+	],
+	"description": "file://README.md",
+	"moduleName": "jruby-openssl",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.6"
+		],
+		"vulnerable": [
+			"< 0.6"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2009-4123"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:55.000Z",
+	"modificationTime": "2016-09-21T12:36:55.000Z",
+	"publicationTime": "2009-12-06T22:00:00.000Z",
+	"disclosureTime": "2009-12-06T22:00:00.000Z",
+	"id": "SNYK-RUBY-JRUBYOPENSSL-20007"
+}

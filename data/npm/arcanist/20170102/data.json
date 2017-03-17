@@ -1,0 +1,30 @@
+{
+	"title": "Downloads Resources over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2017-01-02T04:42:21.000Z",
+	"modificationTime": "2017-01-02T04:42:21.000Z",
+	"publicationTime": "2017-01-04T04:28:35.000Z",
+	"disclosureTime": "2017-01-02T04:42:21.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:L",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 286,
+		"ALTERNATIVE": [
+			"SNYK-JS-ARCANIST-10334"
+		]
+	},
+	"patches": [],
+	"moduleName": "arcanist",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:arcanist:20170102"
+}

@@ -1,0 +1,33 @@
+{
+	"title": "DOM Based Cross-site Scripting (XSS)",
+	"moduleName": "jquery",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2014-6071"
+		],
+		"ALTERNATIVE": [
+			"SNYK-JS-JQUERY-10185"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.6.2",
+		"vulnerable": "<=1.5.1 >=1.4.2"
+	},
+	"credit": [
+		"Mauro Risonho de Paula Assumpção"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2014-09-01T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-10-20T14:16:53.138Z",
+	"modificationTime": "2016-10-06T14:16:53.138Z",
+	"creationTime": "2016-11-06T14:16:53.138Z",
+	"id": "npm:jquery:20140902"
+}

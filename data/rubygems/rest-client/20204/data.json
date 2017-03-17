@@ -1,0 +1,33 @@
+{
+	"title": "Local Plaintext Password Disclosure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "rest-client",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 1.7.3"
+		],
+		"vulnerable": [
+			"< 1.7.3"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-3448"
+		],
+		"OSVDB": [
+			"OSVDB-117461"
+		]
+	},
+	"severity": "low",
+	"creationTime": "2016-09-21T12:37:05.000Z",
+	"modificationTime": "2016-09-21T12:37:05.000Z",
+	"publicationTime": "2015-01-11T22:00:00.000Z",
+	"disclosureTime": "2015-01-11T22:00:00.000Z",
+	"id": "SNYK-RUBY-RESTCLIENT-20204"
+}

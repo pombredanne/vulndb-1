@@ -13,7 +13,10 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-		"NSP": 17
+		"NSP": 17,
+		"ALTERNATIVE": [
+			"SNYK-JS-JSONWEBTOKEN-10037"
+		]
 	},
 	"patches": [
 		{
@@ -30,5 +33,8 @@
 	"creationTime": "2015-03-31T16:00:00.000Z",
 	"publicationTime": "2015-03-31T16:00:00.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2015-03-31T16:00:00.000Z"
+	"disclosureTime": "2015-03-31T16:00:00.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jsonwebtoken:20150331"
 }

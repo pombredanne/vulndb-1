@@ -1,0 +1,42 @@
+{
+	"title": "Denial of Service",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "actionpack",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 3.2.16",
+			">= 4.0.2"
+		],
+		"unaffected": [
+			"~> 2.3.0"
+		],
+		"vulnerable": [
+			"< 4.0.2, >= 3.3",
+			"< 3.2.16, >= 2.4",
+			"< 2.3.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+			"CVE-2013-6414"
+		],
+		"OSVDB": [
+			"OSVDB-100525"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"creationTime": "2016-09-21T12:36:40.000Z",
+	"modificationTime": "2016-09-21T12:36:40.000Z",
+	"publicationTime": "2013-12-02T22:00:00.000Z",
+	"disclosureTime": "2013-12-02T22:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIONPACK-20122"
+}

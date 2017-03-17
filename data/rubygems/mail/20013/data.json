@@ -1,0 +1,35 @@
+{
+	"title": "Arbitrary Shell Command Injection",
+	"credit": [
+		"Andy Lindeman",
+		"Steven Lorek"
+	],
+	"description": "file://README.md",
+	"moduleName": "mail",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 2.2.15"
+		],
+		"vulnerable": [
+			"< 2.2.15"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2011-0739"
+		],
+		"OSVDB": [
+			"OSVDB-70667"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:58.000Z",
+	"modificationTime": "2016-09-21T12:36:58.000Z",
+	"publicationTime": "2011-01-24T22:00:00.000Z",
+	"disclosureTime": "2011-01-24T22:00:00.000Z",
+	"id": "SNYK-RUBY-MAIL-20013"
+}

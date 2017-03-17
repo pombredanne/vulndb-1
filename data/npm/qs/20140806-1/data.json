@@ -15,7 +15,10 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 28
+		"NSP": 28,
+		"ALTERNATIVE": [
+			"SNYK-JS-QS-10020"
+		]
 	},
 	"patches": [
 		{
@@ -41,5 +44,8 @@
 	"creationTime": "2014-08-06T06:10:23.000Z",
 	"publicationTime": "2014-08-06T06:10:23.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2014-08-06T06:10:23.000Z"
+	"disclosureTime": "2014-08-06T06:10:23.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:qs:20140806-1"
 }

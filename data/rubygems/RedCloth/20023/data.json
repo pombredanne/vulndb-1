@@ -1,0 +1,33 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "RedCloth",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 4.3.0"
+		],
+		"vulnerable": [
+			"< 4.3.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2012-6684"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:05.000Z",
+	"modificationTime": "2016-09-21T12:37:05.000Z",
+	"publicationTime": "2012-02-28T22:00:00.000Z",
+	"disclosureTime": "2012-02-28T22:00:00.000Z",
+	"id": "SNYK-RUBY-REDCLOTH-20023"
+}

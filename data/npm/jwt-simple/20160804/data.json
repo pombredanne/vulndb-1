@@ -1,0 +1,32 @@
+{
+	"title": "Forgeable public/private tokens",
+	"credit": [
+		"Theofanis Katsimpas"
+	],
+	"creationTime": "2016-08-18T03:44:13.905Z",
+	"modificationTime": "2016-10-31T03:44:13.905Z",
+	"publicationTime": "2016-10-31T03:44:13.905Z",
+	"disclosureTime": "2016-08-18T03:44:13.905Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<0.3.0",
+		"unaffected": ">=0.3.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-310"
+		],
+		"CVE": [],
+		"NSP": 87,
+		"ALTERNATIVE": [
+			"SNYK-JS-JWTSIMPLE-10166"
+		]
+	},
+	"patches": [],
+	"moduleName": "jwt-simple",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jwt-simple:20160804"
+}

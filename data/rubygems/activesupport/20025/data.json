@@ -1,0 +1,43 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Akira Matsuda"
+	],
+	"description": "file://README.md",
+	"moduleName": "activesupport",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 3.0.12",
+			"~> 3.1.4",
+			">= 3.2.2"
+		],
+		"unaffected": [
+			"< 3.0.0"
+		],
+		"vulnerable": [
+			"< 3.2.2, >= 3.2",
+			"< 3.1.4, >= 3.1",
+			"< 3.0.12, >= 3.0.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2012-1098"
+		],
+		"OSVDB": [
+			"OSVDB-79726"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"creationTime": "2016-09-21T12:36:44.000Z",
+	"modificationTime": "2016-09-21T12:36:44.000Z",
+	"publicationTime": "2012-02-29T22:00:00.000Z",
+	"disclosureTime": "2012-02-29T22:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIVESUPPORT-20025"
+}

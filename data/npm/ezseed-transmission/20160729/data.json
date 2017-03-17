@@ -17,11 +17,17 @@
 	"identifiers": {
 		"CWE": [
 			"CWE-295",
-      "CWE-300"
+			"CWE-300"
 		],
 		"CVE": [],
-		"NSP": 114
+		"NSP": 114,
+		"ALTERNATIVE": [
+			"SNYK-JS-EZSEEDTRANSMISSION-10126"
+		]
 	},
 	"patches": [],
-	"moduleName": "ezseed-transmission"
+	"moduleName": "ezseed-transmission",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:ezseed-transmission:20160729"
 }

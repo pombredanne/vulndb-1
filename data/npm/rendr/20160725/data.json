@@ -19,8 +19,14 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 128
+		"NSP": 128,
+		"ALTERNATIVE": [
+			"SNYK-JS-RENDR-10120"
+		]
 	},
 	"patches": [],
-	"moduleName": "rendr"
+	"moduleName": "rendr",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:rendr:20160725"
 }

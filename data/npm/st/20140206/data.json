@@ -17,7 +17,10 @@
 		"CVE": [
 			"CVE-2014-3744"
 		],
-		"NSP": 36
+		"NSP": 36,
+		"ALTERNATIVE": [
+			"SNYK-JS-ST-10012"
+		]
 	},
 	"patches": [
 		{
@@ -34,5 +37,8 @@
 	"creationTime": "2014-02-06T07:33:48.000Z",
 	"publicationTime": "2014-02-06T07:33:48.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2014-02-06T07:33:48.000Z"
+	"disclosureTime": "2014-02-06T07:33:48.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:st:20140206"
 }

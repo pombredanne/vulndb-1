@@ -1,0 +1,32 @@
+{
+	"title": "Arbitrary Shell Command Injection",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "awesome_spawn",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 1.2.0",
+			">= 1.3.0"
+		],
+		"vulnerable": [
+			"< 1.2.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-0156"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:45.000Z",
+	"modificationTime": "2016-09-21T12:36:45.000Z",
+	"publicationTime": "2014-03-27T22:00:00.000Z",
+	"disclosureTime": "2014-03-27T22:00:00.000Z",
+	"id": "SNYK-RUBY-AWESOMESPAWN-20154"
+}

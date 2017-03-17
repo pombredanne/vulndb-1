@@ -1,0 +1,31 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "md2pdf",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-1948"
+		],
+		"OSVDB": [
+			"OSVDB-92290"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:58.000Z",
+	"modificationTime": "2016-09-21T12:36:58.000Z",
+	"publicationTime": "2013-04-12T21:00:00.000Z",
+	"disclosureTime": "2013-04-12T21:00:00.000Z",
+	"id": "SNYK-RUBY-MD2PDF-20095"
+}

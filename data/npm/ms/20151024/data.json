@@ -18,7 +18,10 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 46
+		"NSP": 46,
+		"ALTERNATIVE": [
+			"SNYK-JS-MS-10064"
+		]
 	},
 	"patches": [
 		{
@@ -77,5 +80,8 @@
 		}
 	],
 	"moduleName": "ms",
-	"disclosureTime": "2015-10-24T20:39:59.852Z"
+	"disclosureTime": "2015-10-24T20:39:59.852Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:ms:20151024"
 }

@@ -1,0 +1,33 @@
+{
+	"title": "Use of Password Hash With Insufficient Computational Effort",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "bcrypt-ruby",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 2.1.4"
+		],
+		"vulnerable": [
+			"< 2.1.4"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-916"
+		],
+		"OSVDB": [
+			"OSVDB-62067"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2016-09-21T12:36:46.000Z",
+	"modificationTime": "2016-09-21T12:36:46.000Z",
+	"publicationTime": "2010-01-31T22:00:00.000Z",
+	"disclosureTime": "2010-01-31T22:00:00.000Z",
+	"id": "SNYK-RUBY-BCRYPTRUBY-20008"
+}

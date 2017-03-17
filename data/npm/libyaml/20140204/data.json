@@ -15,12 +15,18 @@
 		"CVE": [
 			"CVE-2013-6393"
 		],
-		"NSP": 21
+		"NSP": 21,
+		"ALTERNATIVE": [
+			"SNYK-JS-LIBYAML-10011"
+		]
 	},
 	"patches": [],
 	"moduleName": "libyaml",
 	"creationTime": "2014-02-04T07:31:34.000Z",
 	"publicationTime": "2014-02-04T07:31:34.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2014-02-04T07:31:34.000Z"
+	"disclosureTime": "2014-02-04T07:31:34.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:libyaml:20140204"
 }

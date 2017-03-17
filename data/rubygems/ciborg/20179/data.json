@@ -1,0 +1,31 @@
+{
+	"title": "Symlink File Overwrite",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "ciborg",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-5003"
+		],
+		"OSVDB": [
+			"OSVDB-108586"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"creationTime": "2016-09-21T12:36:47.000Z",
+	"modificationTime": "2016-09-21T12:36:47.000Z",
+	"publicationTime": "2014-06-29T21:00:00.000Z",
+	"disclosureTime": "2014-06-29T21:00:00.000Z",
+	"id": "SNYK-RUBY-CIBORG-20179"
+}

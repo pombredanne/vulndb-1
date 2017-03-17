@@ -1,0 +1,31 @@
+{
+	"title": "Restriction Bypass",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "paperclip",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 4.0.0"
+		],
+		"vulnerable": [
+			"< 4.0.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"OSVDB": [
+			"OSVDB-103151"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"creationTime": "2016-09-21T12:37:01.000Z",
+	"modificationTime": "2016-09-21T12:37:01.000Z",
+	"publicationTime": "2014-01-30T22:00:00.000Z",
+	"disclosureTime": "2014-01-30T22:00:00.000Z",
+	"id": "SNYK-RUBY-PAPERCLIP-20144"
+}

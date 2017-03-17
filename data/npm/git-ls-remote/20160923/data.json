@@ -1,0 +1,31 @@
+{
+	"title": "Shell Command Injection",
+	"moduleName": "git-ls-remote",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-78"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-GITLSREMOTE-10143"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=0.2.0",
+		"vulnerable": "<0.2.0"
+	},
+	"credit": [
+		"Snyk Security Research Team"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:L",
+	"disclosureTime": "2016-09-22T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-09-25T08:53:46.832Z",
+	"modificationTime": "2016-09-25T08:53:46.832Z",
+	"creationTime": "2016-09-25T08:53:46.832Z",
+	"id": "npm:git-ls-remote:20160923"
+}

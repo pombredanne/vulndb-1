@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution via Stack Overflow",
+	"credit": [
+		"Giancarlo Canales Barreto"
+	],
+	"description": "file://README.md",
+	"moduleName": "redcarpet",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 3.3.2"
+		],
+		"unaffected": [
+			"< 3.3.0"
+		],
+		"vulnerable": [
+			"< 3.3.2, >= 3.3.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-5147"
+		]
+	},
+	"severity": "high",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"creationTime": "2016-09-21T12:37:04.000Z",
+	"modificationTime": "2016-09-21T12:37:04.000Z",
+	"publicationTime": "2015-06-21T21:00:00.000Z",
+	"disclosureTime": "2015-06-21T21:00:00.000Z",
+	"id": "SNYK-RUBY-REDCARPET-20231"
+}

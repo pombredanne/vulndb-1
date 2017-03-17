@@ -1,0 +1,33 @@
+{
+	"title": "Symlink Attack",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "passenger",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 4.0.60",
+			">= 5.0.22"
+		],
+		"vulnerable": [
+			"< 5.0.22, >= 4.1",
+			"< 4.0.60"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-7519"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:02.000Z",
+	"modificationTime": "2016-09-21T12:37:02.000Z",
+	"publicationTime": "2015-11-22T22:00:00.000Z",
+	"disclosureTime": "2015-11-22T22:00:00.000Z",
+	"id": "SNYK-RUBY-PASSENGER-20243"
+}

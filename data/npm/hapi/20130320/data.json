@@ -1,0 +1,31 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"moduleName": "hapi",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-HAPI-10207"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=0.16.0",
+		"vulnerable": "<0.16.0"
+	},
+	"credit": [
+		"Wyatt Preul"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"disclosureTime": "2013-03-19T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-11-22T11:04:19.911Z",
+	"modificationTime": "2016-09-22T11:04:19.911Z",
+	"creationTime": "2016-09-22T11:04:19.911Z",
+	"id": "npm:hapi:20130320"
+}

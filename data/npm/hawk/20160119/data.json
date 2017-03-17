@@ -18,7 +18,10 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 77
+		"NSP": 77,
+		"ALTERNATIVE": [
+			"SNYK-JS-HAWK-10080"
+		]
 	},
 	"patches": [
 		{
@@ -59,5 +62,8 @@
 		}
 	],
 	"moduleName": "hawk",
-	"disclosureTime": "2016-01-19T21:51:35.396Z"
+	"disclosureTime": "2016-01-19T21:51:35.396Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:hawk:20160119"
 }

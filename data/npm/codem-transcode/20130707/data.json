@@ -15,12 +15,18 @@
 		"CVE": [
 			"CVE-2013-7377"
 		],
-		"NSP": 2
+		"NSP": 2,
+		"ALTERNATIVE": [
+			"SNYK-JS-CODEMTRANSCODE-10007"
+		]
 	},
 	"patches": [],
 	"moduleName": "codem-transcode",
 	"creationTime": "2013-07-07T06:33:48.000Z",
 	"publicationTime": "2013-07-07T06:33:48.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2013-07-07T06:33:48.000Z"
+	"disclosureTime": "2013-07-07T06:33:48.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:codem-transcode:20130707"
 }

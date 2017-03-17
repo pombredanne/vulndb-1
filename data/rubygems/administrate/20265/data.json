@@ -1,0 +1,31 @@
+{
+	"title": "Cross-site request forgery (CSRF)",
+	"credit": [
+		"Jason Yeo"
+	],
+	"description": "file://README.md",
+	"moduleName": "administrate",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.1.5"
+		],
+		"vulnerable": [
+			"< 0.1.5"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2016-3098"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"creationTime": "2016-09-21T12:36:44.000Z",
+	"modificationTime": "2016-09-21T12:36:44.000Z",
+	"publicationTime": "2016-03-31T21:00:00.000Z",
+	"disclosureTime": "2016-03-31T21:00:00.000Z",
+	"id": "SNYK-RUBY-ADMINISTRATE-20265"
+}

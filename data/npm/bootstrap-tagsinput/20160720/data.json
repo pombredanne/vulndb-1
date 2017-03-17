@@ -19,8 +19,14 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 124
+		"NSP": 124,
+		"ALTERNATIVE": [
+			"SNYK-JS-BOOTSTRAPTAGSINPUT-10115"
+		]
 	},
 	"patches": [],
-	"moduleName": "bootstrap-tagsinput"
+	"moduleName": "bootstrap-tagsinput",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:bootstrap-tagsinput:20160720"
 }

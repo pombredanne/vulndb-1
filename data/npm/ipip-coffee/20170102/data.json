@@ -1,0 +1,30 @@
+{
+	"title": "Downloads Resources over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2017-01-02T04:28:01.000Z",
+	"modificationTime": "2017-01-02T04:28:01.000Z",
+	"publicationTime": "2017-01-04T04:25:56.000Z",
+	"disclosureTime": "2017-01-02T04:28:01.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:N/I:H/A:L",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 279,
+		"ALTERNATIVE": [
+			"SNYK-JS-IPIPCOFFEE-10330"
+		]
+	},
+	"patches": [],
+	"moduleName": "ipip-coffee",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:ipip-coffee:20170102"
+}

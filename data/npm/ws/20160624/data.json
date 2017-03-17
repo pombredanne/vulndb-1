@@ -19,7 +19,10 @@
 			"CWE-410"
 		],
 		"CVE": [],
-		"NSP": 120
+		"NSP": 120,
+		"ALTERNATIVE": [
+			"SNYK-JS-WS-10111"
+		]
 	},
 	"patches": [
 		{
@@ -33,7 +36,7 @@
 		},
 		{
 			"urls": [
-				"file://ws_20160624_0_1_101.patch"
+				"file://ws_20160624_0_1_101_sio.patch"
 			],
 			"version": "=1.0.1",
 			"modificationTime": "2016-07-07T00:00:00.000Z",
@@ -41,5 +44,8 @@
 			"id": "patch:npm:ws:20160624:1"
 		}
 	],
-	"moduleName": "ws"
+	"moduleName": "ws",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:ws:20160624"
 }

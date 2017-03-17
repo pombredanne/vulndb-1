@@ -1,0 +1,30 @@
+{
+	"title": "Downloads Resources over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2017-01-01T16:52:43.000Z",
+	"modificationTime": "2017-01-01T16:52:43.000Z",
+	"publicationTime": "2017-01-04T04:00:47.000Z",
+	"disclosureTime": "2017-01-01T16:52:43.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 230,
+		"ALTERNATIVE": [
+			"SNYK-JS-HEADLESSBROWSERLITE-10357"
+		]
+	},
+	"patches": [],
+	"moduleName": "headless-browser-lite",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:headless-browser-lite:20170101"
+}

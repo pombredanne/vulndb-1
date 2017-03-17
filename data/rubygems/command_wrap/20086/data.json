@@ -1,0 +1,31 @@
+{
+	"title": "Arbitrary Command Injection",
+	"credit": [
+		"Larry W. Cashdollar"
+	],
+	"description": "file://README.md",
+	"moduleName": "command_wrap",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-1875"
+		],
+		"OSVDB": [
+			"OSVDB-91450"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:48.000Z",
+	"modificationTime": "2016-09-21T12:36:48.000Z",
+	"publicationTime": "2013-03-17T22:00:00.000Z",
+	"disclosureTime": "2013-03-17T22:00:00.000Z",
+	"id": "SNYK-RUBY-COMMANDWRAP-20086"
+}

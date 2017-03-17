@@ -19,8 +19,14 @@
 			"CWE-248"
 		],
 		"CVE": [],
-		"NSP": 140
+		"NSP": 140,
+		"ALTERNATIVE": [
+			"SNYK-JS-MQTT-10130"
+		]
 	},
 	"patches": [],
-	"moduleName": "mqtt"
+	"moduleName": "mqtt",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:mqtt:20160817"
 }

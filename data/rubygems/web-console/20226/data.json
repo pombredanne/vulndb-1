@@ -1,0 +1,34 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"joernchen",
+		"Ben Murphy"
+	],
+	"description": "file://README.md",
+	"moduleName": "web-console",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 2.1.3"
+		],
+		"vulnerable": [
+			"< 2.1.3"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-290"
+		],
+		"CVE": [
+			"CVE-2015-3224"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:11.000Z",
+	"modificationTime": "2016-09-21T12:37:11.000Z",
+	"publicationTime": "2015-06-15T21:00:00.000Z",
+	"disclosureTime": "2015-06-15T21:00:00.000Z",
+	"id": "SNYK-RUBY-WEBCONSOLE-20226"
+}

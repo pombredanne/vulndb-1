@@ -1,0 +1,31 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Ben Atkin"
+	],
+	"creationTime": "2016-09-18T00:00:00.000Z",
+	"modificationTime": "2016-09-18T00:00:00.000Z",
+	"publicationTime": "2016-10-20T18:25:00.00Z",
+	"disclosureTime": "2012-03-11T00:00:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.8.3",
+		"unaffected": ">=0.9.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-CHEERIO-10158"
+		]
+	},
+	"patches": [],
+	"moduleName": "cheerio",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:cheerio:20120311"
+}

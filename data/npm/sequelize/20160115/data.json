@@ -16,7 +16,10 @@
 			"CWE-201"
 		],
 		"CVE": [],
-		"NSP": 112
+		"NSP": 112,
+		"ALTERNATIVE": [
+			"SNYK-JS-SEQUELIZE-10098"
+		]
 	},
 	"patches": [
 		{
@@ -42,5 +45,8 @@
 	"creationTime": "2016-04-01T02:09:36.180Z",
 	"publicationTime": "2016-04-01T02:09:36.180Z",
 	"modificationTime": "2016-04-01T02:09:36.180Z",
-	"disclosureTime": "2016-01-15T00:00:00.000Z"
+	"disclosureTime": "2016-01-15T00:00:00.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:sequelize:20160115"
 }

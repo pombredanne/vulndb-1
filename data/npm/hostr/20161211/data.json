@@ -1,0 +1,31 @@
+{
+	"title": "Directory Traversal",
+	"moduleName": "hostr",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-22"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-HOSTR-10251"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=2.3.6",
+		"vulnerable": "<2.3.6"
+	},
+	"credit": [
+		"Liang Gong"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"disclosureTime": "2016-12-10T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-20T17:34:26.727Z",
+	"modificationTime": "2016-12-20T12:34:26.727Z",
+	"creationTime": "2016-12-20T12:34:26.727Z",
+	"id": "npm:hostr:20161211"
+}

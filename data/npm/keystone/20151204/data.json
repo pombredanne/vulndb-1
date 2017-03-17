@@ -15,7 +15,10 @@
 			"CWE-287"
 		],
 		"CVE": [],
-		"NSP": 60
+		"NSP": 60,
+		"ALTERNATIVE": [
+			"SNYK-JS-KEYSTONE-10066"
+		]
 	},
 	"patches": [
 		{
@@ -32,5 +35,8 @@
 	"creationTime": "2015-12-06T23:37:48.917Z",
 	"modificationTime": "2015-12-06T23:37:48.917Z",
 	"publicationTime": "2015-12-06T23:37:48.917Z",
-	"disclosureTime": "2015-12-04T17:52:25.832Z"
+	"disclosureTime": "2015-12-04T17:52:25.832Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:keystone:20151204"
 }

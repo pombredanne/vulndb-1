@@ -1,0 +1,31 @@
+{
+	"title": "Timing Attack via Non-constant Time Comparison",
+	"moduleName": "fernet",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-208"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-FERNET-10206"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=0.1.0",
+		"vulnerable": "<0.1.0 >=0.0.1"
+	},
+	"credit": [
+		"Chris Continanza"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+	"disclosureTime": "2014-03-06T08:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-11-22T17:50:33.951Z",
+	"modificationTime": "2016-11-23T13:12:33.951Z",
+	"creationTime": "2016-10-14T22:50:33.951Z",
+	"id": "npm:fernet:20140306"
+}

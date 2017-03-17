@@ -17,7 +17,10 @@
 		"CVE": [
 			"CVE-2013-7381"
 		],
-		"NSP": 20
+		"NSP": 20,
+		"ALTERNATIVE": [
+			"SNYK-JS-LIBNOTIFY-10003"
+		]
 	},
 	"patches": [
 		{
@@ -36,5 +39,8 @@
 	"creationTime": "2013-05-15T19:30:05.000Z",
 	"publicationTime": "2013-05-15T19:30:05.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2013-05-15T19:30:05.000Z"
+	"disclosureTime": "2013-05-15T19:30:05.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:libnotify:20130515"
 }

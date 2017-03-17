@@ -19,8 +19,14 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 125
+		"NSP": 125,
+		"ALTERNATIVE": [
+			"SNYK-JS-GMAILJS-10116"
+		]
 	},
 	"patches": [],
-	"moduleName": "gmail-js"
+	"moduleName": "gmail-js",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:gmail-js:20160721"
 }

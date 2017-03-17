@@ -1,0 +1,36 @@
+{
+	"title": "Unsafe Query Generation Risk",
+	"credit": [
+		"Sudhir Rao"
+	],
+	"description": "file://README.md",
+	"moduleName": "actionpack",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 3.2.16",
+			">= 4.0.2"
+		],
+		"vulnerable": [
+			"< 4.0.2, >= 3.3",
+			"< 3.2.16"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-6417"
+		],
+		"OSVDB": [
+			"OSVDB-100527"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"creationTime": "2016-09-21T12:36:40.000Z",
+	"modificationTime": "2016-09-21T12:36:40.000Z",
+	"publicationTime": "2013-12-02T22:00:00.000Z",
+	"disclosureTime": "2013-12-02T22:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIONPACK-20125"
+}

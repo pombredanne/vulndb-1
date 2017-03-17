@@ -4,12 +4,12 @@
 		"Adam Baldwin"
 	],
 	"creationTime": "2016-02-01T19:00:03.862Z",
-	"modificationTime": "2016-02-01T19:00:03.862Z",
+	"modificationTime": "2016-09-28T19:00:03.862Z",
 	"publicationTime": "2016-02-01T19:00:03.862Z",
 	"description": "file://README.md",
 	"semver": {
 		"vulnerable": "<=2.11.1",
-		"unaffected": "<0.0.0"
+		"unaffected": ">2.11.1"
 	},
 	"CVSSv3": "",
 	"severity": "low",
@@ -18,7 +18,10 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 55
+		"NSP": 55,
+		"ALTERNATIVE": [
+			"SNYK-JS-MOMENT-10084"
+		]
 	},
 	"patches": [
 		{
@@ -68,5 +71,8 @@
 		}
 	],
 	"moduleName": "moment",
-	"disclosureTime": "2016-01-26T20:04:21.225Z"
+	"disclosureTime": "2016-01-26T20:04:21.225Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:moment:20160126"
 }

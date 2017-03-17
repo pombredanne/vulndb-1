@@ -19,8 +19,14 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 132
+		"NSP": 132,
+		"ALTERNATIVE": [
+			"SNYK-JS-JQTREE-10123"
+		]
 	},
 	"patches": [],
-	"moduleName": "jqtree"
+	"moduleName": "jqtree",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jqtree:20160725"
 }

@@ -19,8 +19,14 @@
 			"CWE-592"
 		],
 		"CVE": [],
-		"NSP": 90
+		"NSP": 90,
+		"ALTERNATIVE": [
+			"SNYK-JS-CONSOLEIO-10102"
+		]
 	},
 	"patches": [],
-	"moduleName": "console-io"
+	"moduleName": "console-io",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:console-io:20160418"
 }

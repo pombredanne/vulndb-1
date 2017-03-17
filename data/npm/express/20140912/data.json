@@ -1,11 +1,11 @@
 {
-	"title": "Cross-Site Scripting",
+	"title": "Cross-Site Scripting (XSS)",
 	"credit": [
 		"Paweł Hałdrzyński"
 	],
 	"description": "file://README.md",
 	"semver": {
-		"vulnerable": "<3.11 || >= 4 <4.5",
+		"vulnerable": "<3.11 || >=4 <4.5",
 		"unaffected": ">=3.11 <4 || >=4.5"
 	},
 	"CVSSv3": "",
@@ -18,7 +18,8 @@
 			"CVE-2014-6393"
 		],
 		"ALTERNATIVE": [
-			"npm:express:20140912-1"
+			"npm:express:20140912-1",
+			"SNYK-JS-EXPRESS-10021"
 		],
 		"NSP": 8
 	},
@@ -27,5 +28,8 @@
 	"creationTime": "2014-09-12T04:46:45.000Z",
 	"publicationTime": "2014-09-12T04:46:45.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2014-09-12T04:46:45.000Z"
+	"disclosureTime": "2014-09-12T04:46:45.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:express:20140912"
 }

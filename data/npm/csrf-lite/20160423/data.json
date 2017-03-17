@@ -19,8 +19,14 @@
 			"CWE-208"
 		],
 		"CVE": [],
-		"NSP": 94
+		"NSP": 94,
+		"ALTERNATIVE": [
+			"SNYK-JS-CSRFLITE-10107"
+		]
 	},
 	"patches": [],
-	"moduleName": "csrf-lite"
+	"moduleName": "csrf-lite",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:csrf-lite:20160423"
 }

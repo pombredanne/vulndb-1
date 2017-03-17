@@ -1,0 +1,31 @@
+{
+	"title": "Authentication Bypass",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "bundler",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 1.3.0.pre.8"
+		],
+		"vulnerable": [
+			"< 1.3.0.pre.8"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"OSVDB": [
+			"OSVDB-115090"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:47.000Z",
+	"modificationTime": "2016-09-21T12:36:47.000Z",
+	"publicationTime": "2013-02-11T22:00:00.000Z",
+	"disclosureTime": "2013-02-11T22:00:00.000Z",
+	"id": "SNYK-RUBY-BUNDLER-20063"
+}

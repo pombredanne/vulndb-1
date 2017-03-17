@@ -15,7 +15,10 @@
 		"CVE": [
 			"CVE-2015-7294"
 		],
-		"NSP": 18
+		"NSP": 18,
+		"ALTERNATIVE": [
+			"SNYK-JS-LDAPAUTHFORK-10043"
+		]
 	},
 	"patches": [
 		{
@@ -34,5 +37,8 @@
 	"creationTime": "2015-09-18T09:29:10.000Z",
 	"publicationTime": "2015-09-18T09:29:10.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2015-09-18T09:29:10.000Z"
+	"disclosureTime": "2015-09-18T09:29:10.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:ldapauth-fork:20150918"
 }

@@ -19,8 +19,14 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 127
+		"NSP": 127,
+		"ALTERNATIVE": [
+			"SNYK-JS-JQUERYUI-10118"
+		]
 	},
 	"patches": [],
-	"moduleName": "jquery-ui"
+	"moduleName": "jquery-ui",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jquery-ui:20160721"
 }

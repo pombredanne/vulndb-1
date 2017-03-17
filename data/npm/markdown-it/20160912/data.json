@@ -1,0 +1,41 @@
+{
+	"title": "Cross-site Scripting (XSS) via Data URIs",
+	"credit": [
+		"Vitaly Puzrin"
+	],
+	"creationTime": "2016-09-12T00:00:00.780Z",
+	"modificationTime": "2016-09-12T00:00:00.780Z",
+	"publicationTime": "2016-09-27T00:00:00.000Z",
+	"disclosureTime": "2015-03-31T00:00:00.780Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=4.0.3",
+		"unaffected": ">=4.1.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-MARKDOWNIT-10144"
+		]
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://markdown-it_20160912_0_0_f76d3beb46abd121892a2e2e5c78376354c214e3.patch"
+			],
+			"version": "4.0.3",
+			"modificationTime": "2016-09-12T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:markdown-it:20160912:0"
+		}
+	],
+	"moduleName": "markdown-it",
+	"packageManager": "npm",
+	"language": "js",
+	"id": "npm:markdown-it:20160912"
+}

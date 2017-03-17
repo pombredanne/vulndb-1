@@ -13,7 +13,10 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-		"NSP": 14
+		"NSP": 14,
+		"ALTERNATIVE": [
+			"SNYK-JS-INERT-10031"
+		]
 	},
 	"patches": [
 		{
@@ -30,5 +33,8 @@
 	"creationTime": "2014-12-15T17:13:48.000Z",
 	"publicationTime": "2014-12-15T17:13:48.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2014-12-15T17:13:48.000Z"
+	"disclosureTime": "2014-12-15T17:13:48.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:inert:20141215"
 }

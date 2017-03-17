@@ -16,7 +16,10 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-		"NSP": 50
+		"NSP": 50,
+		"ALTERNATIVE": [
+			"SNYK-JS-SECURECOMPARE-10060"
+		]
 	},
 	"patches": [
 		{
@@ -32,5 +35,8 @@
 		}
 	],
 	"moduleName": "secure-compare",
-	"disclosureTime": "2015-10-24T21:00:53.201Z"
+	"disclosureTime": "2015-10-24T21:00:53.201Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:secure-compare:20151024"
 }

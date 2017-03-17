@@ -1,0 +1,41 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Oddbjørn Haaland"
+	],
+	"creationTime": "2016-09-13T00:00:00.780Z",
+	"modificationTime": "2016-09-13T00:00:00.780Z",
+	"publicationTime": "2016-10-31T17:00:00.000Z",
+	"disclosureTime": "2015-08-16T00:00:00.780Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.51.0",
+		"unaffected": ">=0.51.2"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-SHOUT-10169"
+		]
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://shout_20160913_0_0_7ef2da0c832175cea1776a651a3c14051468fdc2.patch"
+			],
+			"version": "0.51.0",
+			"modificationTime": "2016-09-13T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:shout:20160913:0"
+		}
+	],
+	"moduleName": "shout",
+	"packageManager": "npm",
+	"language": "js",
+	"id": "npm:shout:20160913"
+}

@@ -1,0 +1,31 @@
+{
+	"title": "Sensitive Information Exposure",
+	"credit": [
+		"Hrvoje Šimić"
+	],
+	"creationTime": "2016-09-13T00:00:00.000Z",
+	"modificationTime": "2016-10-10T00:00:00.000Z",
+	"publicationTime": "2016-10-10T00:00:00.000Z",
+	"disclosureTime": "2016-02-15T00:00:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.3.8",
+		"unaffected": ">=0.4.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-AIRBRAKE-10151"
+		]
+	},
+	"patches": [],
+	"moduleName": "airbrake",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:airbrake:20160215"
+}

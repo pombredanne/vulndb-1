@@ -1,0 +1,42 @@
+{
+	"title": "Remote Code Execution via Timing Attack",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "rack",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 1.1.6",
+			"~> 1.2.8",
+			"~> 1.3.10",
+			"~> 1.4.5",
+			">= 1.5.2"
+		],
+		"vulnerable": [
+			"< 1.5.2, >= 1.5",
+			"< 1.4.5, >= 1.4",
+			"< 1.3.10, >= 1.3",
+			"< 1.2.8, >= 1.2",
+			"< 1.1.6"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-0263"
+		],
+		"OSVDB": [
+			"OSVDB-89939"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:03.000Z",
+	"modificationTime": "2016-11-13T12:37:03.000Z",
+	"publicationTime": "2013-02-06T22:00:00.000Z",
+	"disclosureTime": "2013-02-06T22:00:00.000Z",
+	"id": "SNYK-RUBY-RACK-20059"
+}

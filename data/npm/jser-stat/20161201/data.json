@@ -1,0 +1,32 @@
+{
+	"title": "Resources downloaded over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2016-12-21T22:44:26.000Z",
+	"modificationTime": "2016-12-25T22:44:26.000Z",
+	"publicationTime": "2016-12-25T23:49:49.000Z",
+	"disclosureTime": "2016-12-01T23:49:12.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:L/A:L",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-319"
+		],
+		"CVE": [],
+		"NSP": 188,
+		"ALTERNATIVE": [
+			"SNYK-JS-JSERSTAT-10255"
+		]
+	},
+	"patches": [],
+	"moduleName": "jser-stat",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jser-stat:20161201"
+}

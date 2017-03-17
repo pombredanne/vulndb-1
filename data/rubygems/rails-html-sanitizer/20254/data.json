@@ -1,0 +1,37 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Arthur Neves",
+		"Spyros Livathinos"
+	],
+	"description": "file://README.md",
+	"moduleName": "rails-html-sanitizer",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 1.0.3"
+		],
+		"unaffected": [
+			"< 1.0.2"
+		],
+		"vulnerable": [
+			"< 1.0.3, >= 1.0.2"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2015-7579"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:04.000Z",
+	"modificationTime": "2016-09-21T12:37:04.000Z",
+	"publicationTime": "2016-01-24T22:00:00.000Z",
+	"disclosureTime": "2016-01-24T22:00:00.000Z",
+	"id": "SNYK-RUBY-RAILSHTMLSANITIZER-20254"
+}

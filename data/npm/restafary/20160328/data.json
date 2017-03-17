@@ -18,9 +18,15 @@
 			"CWE-22"
 		],
 		"CVE": [],
-		"NSP": 89
+		"NSP": 89,
+		"ALTERNATIVE": [
+			"SNYK-JS-RESTAFARY-10091"
+		]
 	},
 	"patches": [],
 	"moduleName": "restafary",
-	"disclosureTime": "2016-03-28T22:21:23.000Z"
+	"disclosureTime": "2016-03-28T22:21:23.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:restafary:20160328"
 }

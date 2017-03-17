@@ -1,0 +1,30 @@
+{
+	"title": "Resources downloaded over insecure protocol",
+	"moduleName": "aerospike",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 167,
+		"ALTERNATIVE": [
+			"SNYK-JS-AEROSPIKE-10224"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=2.4.2",
+		"vulnerable": "<2.4.2"
+	},
+	"credit": [
+		"Adam Baldwin"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"disclosureTime": "2016-11-01T00:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-06T11:52:05.268Z",
+	"modificationTime": "2016-12-06T11:52:05.268Z",
+	"creationTime": "2016-12-06T11:52:05.268Z",
+	"id": "npm:aerospike:20161101"
+}

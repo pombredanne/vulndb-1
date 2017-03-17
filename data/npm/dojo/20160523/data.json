@@ -21,8 +21,14 @@
 		"CVE": [
 			"CVE-2008-6681"
 		],
-		"NSP": 107
+		"NSP": 107,
+		"ALTERNATIVE": [
+			"SNYK-JS-DOJO-10108"
+		]
 	},
 	"patches": [],
-	"moduleName": "dojo"
+	"moduleName": "dojo",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:dojo:20160523"
 }

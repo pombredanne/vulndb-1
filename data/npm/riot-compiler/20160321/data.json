@@ -8,19 +8,25 @@
 	"publicationTime": "2016-03-21T22:00:02.570Z",
 	"description": "file://README.md",
 	"semver": {
-		"vulnerable": "2.3.21",
+		"vulnerable": "<=2.3.21",
 		"unaffected": ">2.3.21"
 	},
-	"CVSSv3": "",
-	"severity": "low",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
 	"identifiers": {
 		"CWE": [
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 86
+		"NSP": 86,
+		"ALTERNATIVE": [
+			"SNYK-JS-RIOTCOMPILER-10087"
+		]
 	},
 	"patches": [],
 	"moduleName": "riot-compiler",
-	"disclosureTime": "2016-03-21T21:27:58.413Z"
+	"disclosureTime": "2016-03-21T21:27:58.413Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:riot-compiler:20160321"
 }

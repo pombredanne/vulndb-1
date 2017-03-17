@@ -13,12 +13,17 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": ""
+		"ALTERNATIVE": [
+			"SNYK-JS-MUSTACHE-10046"
+		]
 	},
 	"patches": [],
 	"moduleName": "mustache",
 	"creationTime": "2015-11-06T02:09:36.180Z",
 	"publicationTime": "2015-11-06T02:09:36.180Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2015-11-06T02:09:36.180Z"
+	"disclosureTime": "2015-11-06T02:09:36.180Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:mustache:20110814"
 }

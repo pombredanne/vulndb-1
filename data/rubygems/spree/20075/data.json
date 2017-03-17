@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Laurens Nienhaus"
+	],
+	"description": "file://README.md",
+	"moduleName": "spree",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 2.0.0"
+		],
+		"vulnerable": [
+			"< 2.0.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-1656"
+		],
+		"OSVDB": [
+			"OSVDB-91216"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:09.000Z",
+	"modificationTime": "2016-09-21T12:37:09.000Z",
+	"publicationTime": "2013-02-20T22:00:00.000Z",
+	"disclosureTime": "2013-02-20T22:00:00.000Z",
+	"id": "SNYK-RUBY-SPREE-20075"
+}

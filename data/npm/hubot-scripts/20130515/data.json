@@ -15,12 +15,18 @@
 		"CVE": [
 			"CVE-2013-7378"
 		],
-		"NSP": 13
+		"NSP": 13,
+		"ALTERNATIVE": [
+			"SNYK-JS-HUBOTSCRIPTS-10002"
+		]
 	},
 	"patches": [],
 	"moduleName": "hubot-scripts",
 	"creationTime": "2013-05-15T19:14:38.000Z",
 	"publicationTime": "2013-05-15T19:14:38.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2013-05-15T19:14:38.000Z"
+	"disclosureTime": "2013-05-15T19:14:38.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:hubot-scripts:20130515"
 }

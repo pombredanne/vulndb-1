@@ -1,0 +1,36 @@
+{
+	"title": "Improperly Controlled Model Modification",
+	"credit": [
+		"Eric Chapweske"
+	],
+	"description": "file://README.md",
+	"moduleName": "spree",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.3.0"
+		],
+		"vulnerable": [
+			"< 0.3.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-915"
+		],
+		"CVE": [
+			"CVE-2008-7310"
+		],
+		"OSVDB": [
+			"OSVDB-81505"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:09.000Z",
+	"modificationTime": "2016-09-21T12:37:09.000Z",
+	"publicationTime": "2008-09-21T21:00:00.000Z",
+	"disclosureTime": "2008-09-21T21:00:00.000Z",
+	"id": "SNYK-RUBY-SPREE-20005"
+}

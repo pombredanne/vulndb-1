@@ -1,0 +1,30 @@
+{
+	"title": "Downloads Resources over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2017-01-01T22:50:01.000Z",
+	"modificationTime": "2017-01-01T22:50:01.000Z",
+	"publicationTime": "2017-01-04T04:21:37.000Z",
+	"disclosureTime": "2017-01-01T22:50:01.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 263,
+		"ALTERNATIVE": [
+			"SNYK-JS-NATIVEOPENCV-10321"
+		]
+	},
+	"patches": [],
+	"moduleName": "native-opencv",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:native-opencv:20170101"
+}

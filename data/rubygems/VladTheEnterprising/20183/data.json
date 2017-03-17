@@ -1,0 +1,28 @@
+{
+	"title": "Symlink Arbitrary File Overwrite",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "VladTheEnterprising",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-4995"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:11.000Z",
+	"modificationTime": "2016-09-21T12:37:11.000Z",
+	"publicationTime": "2014-06-29T21:00:00.000Z",
+	"disclosureTime": "2014-06-29T21:00:00.000Z",
+	"id": "SNYK-RUBY-VLADTHEENTERPRISING-20183"
+}

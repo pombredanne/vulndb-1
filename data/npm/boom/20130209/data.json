@@ -1,0 +1,31 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Wyatt Preul"
+	],
+	"moduleName": "boom",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-BOOM-10149"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"vulnerable": "<0.3.0",
+		"unaffected": ">=0.3.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"disclosureTime": "2013-02-08T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-10-05T07:46:29.374Z",
+	"modificationTime": "2016-10-05T07:46:29.374Z",
+	"creationTime": "2016-10-05T07:46:29.374Z",
+	"id": "npm:boom:20130209"
+}

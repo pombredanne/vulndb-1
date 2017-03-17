@@ -1,0 +1,31 @@
+{
+	"title": "Arbitrary Code Execution via Sandbox Bypass",
+	"credit": [
+		"joernchen"
+	],
+	"description": "file://README.md",
+	"moduleName": "jruby_sandbox",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.2.3"
+		],
+		"vulnerable": [
+			"< 0.2.3"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"OSVDB": [
+			"OSVDB-106279"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:L",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:55.000Z",
+	"modificationTime": "2016-09-21T12:36:55.000Z",
+	"publicationTime": "2014-04-23T21:00:00.000Z",
+	"disclosureTime": "2014-04-23T21:00:00.000Z",
+	"id": "SNYK-RUBY-JRUBYSANDBOX-20156"
+}

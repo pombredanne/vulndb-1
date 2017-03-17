@@ -15,7 +15,10 @@
 		"CWE": [
 			"CWE-89"
 		],
-		"CVE": []
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-SEQUELIZE-10094"
+		]
 	},
 	"patches": [
 		{
@@ -32,5 +35,8 @@
 	"creationTime": "2016-04-01T00:00:00.000Z",
 	"publicationTime": "2016-04-01T00:00:00.000Z",
 	"modificationTime": "2016-04-01T00:00:00.000Z",
-	"disclosureTime": "2015-01-06T00:00:00.000Z"
+	"disclosureTime": "2015-01-06T00:00:00.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:sequelize:20160106"
 }

@@ -1,0 +1,34 @@
+{
+	"title": "Arbirary Command Execution",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "sfpagent",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.4.15"
+		],
+		"vulnerable": [
+			"< 0.4.15"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-2888"
+		],
+		"OSVDB": [
+			"OSVDB-105971"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:37:06.000Z",
+	"modificationTime": "2016-09-21T12:37:06.000Z",
+	"publicationTime": "2014-04-15T21:00:00.000Z",
+	"disclosureTime": "2014-04-15T21:00:00.000Z",
+	"id": "SNYK-RUBY-SFPAGENT-20155"
+}

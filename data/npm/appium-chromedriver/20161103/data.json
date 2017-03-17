@@ -1,0 +1,30 @@
+{
+	"title": "Resources downloaded over insecure protocol",
+	"moduleName": "appium-chromedriver",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+    "NSP": 162,
+		"ALTERNATIVE": [
+			"SNYK-JS-APPIUMCHROMEDRIVER-10221"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"vulnerable": "<2.9.4",
+		"unaffected": ">=2.9.4"
+	},
+	"credit": [
+		"Adam Baldwin"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"disclosureTime": "2016-11-03T00:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-06T11:57:39.924Z",
+	"modificationTime": "2016-12-06T11:57:39.924Z",
+	"creationTime": "2016-12-06T11:57:39.924Z",
+	"id": "npm:appium-chromedriver:20161103"
+}

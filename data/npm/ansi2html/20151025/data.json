@@ -15,12 +15,18 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 51
+		"NSP": 51,
+		"ALTERNATIVE": [
+			"SNYK-JS-ANSI2HTML-10058"
+		]
 	},
 	"patches": [],
 	"moduleName": "ansi2html",
 	"creationTime": "2015-11-06T02:09:36.185Z",
 	"modificationTime": "2015-11-06T02:09:36.185Z",
 	"publicationTime": "2015-11-06T02:09:36.185Z",
-	"disclosureTime": "2015-10-25T01:35:01.611Z"
+	"disclosureTime": "2015-10-25T01:35:01.611Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:ansi2html:20151025"
 }

@@ -18,9 +18,15 @@
 			"CWE-248"
 		],
 		"CVE": [],
-		"NSP": 64
+		"NSP": 64,
+		"ALTERNATIVE": [
+			"SNYK-JS-ECSTATIC-10069"
+		]
 	},
 	"patches": [],
 	"moduleName": "ecstatic",
-	"disclosureTime": "2015-12-23T23:21:25.322Z"
+	"disclosureTime": "2015-12-23T23:21:25.322Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:ecstatic:20151223"
 }

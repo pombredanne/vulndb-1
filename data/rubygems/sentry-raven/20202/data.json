@@ -1,0 +1,36 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Travis CI"
+	],
+	"description": "file://README.md",
+	"moduleName": "sentry-raven",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.12.2"
+		],
+		"vulnerable": [
+			"< 0.12.2"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+			"CVE-2014-9490"
+		],
+		"OSVDB": [
+			"OSVDB-115654"
+		]
+	},
+	"severity": "medium",
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"creationTime": "2016-09-21T12:37:06.000Z",
+	"modificationTime": "2016-09-21T12:37:06.000Z",
+	"publicationTime": "2014-12-07T22:00:00.000Z",
+	"disclosureTime": "2014-12-07T22:00:00.000Z",
+	"id": "SNYK-RUBY-SENTRYRAVEN-20202"
+}

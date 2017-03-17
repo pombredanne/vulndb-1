@@ -1,0 +1,40 @@
+{
+	"title": "Data Injection",
+	"credit": [
+		"Godfrey Chan"
+	],
+	"description": "file://README.md",
+	"moduleName": "activerecord",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 4.0.3",
+			">= 4.1.0.beta2"
+		],
+		"unaffected": [
+			"< 3.2.0",
+			"~> 3.2.0"
+		],
+		"vulnerable": [
+			"< 4.1.0.beta2, >= 4.1.0.a",
+			"< 4.0.3, >= 3.3"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-0080"
+		],
+		"OSVDB": [
+			"OSVDB-103438"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:42.000Z",
+	"modificationTime": "2016-09-21T12:36:42.000Z",
+	"publicationTime": "2014-02-17T22:00:00.000Z",
+	"disclosureTime": "2014-02-17T22:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIVERECORD-20149"
+}

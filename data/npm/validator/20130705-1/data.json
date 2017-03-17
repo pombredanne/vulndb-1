@@ -15,7 +15,10 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 43
+		"NSP": 43,
+		"ALTERNATIVE": [
+			"SNYK-JS-VALIDATOR-10024"
+		]
 	},
 	"patches": [
 		{
@@ -32,5 +35,8 @@
 	"creationTime": "2014-10-27T06:33:48.000Z",
 	"publicationTime": "2014-10-27T06:33:48.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2014-10-27T06:33:48.000Z"
+	"disclosureTime": "2014-10-27T06:33:48.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:validator:20130705-1"
 }

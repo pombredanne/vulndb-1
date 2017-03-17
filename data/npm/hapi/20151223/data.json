@@ -18,9 +18,15 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 63
+		"NSP": 63,
+		"ALTERNATIVE": [
+			"SNYK-JS-HAPI-10070"
+		]
 	},
 	"patches": [],
 	"moduleName": "hapi",
-	"disclosureTime": "2015-12-23T23:17:51.134Z"
+	"disclosureTime": "2015-12-23T23:17:51.134Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:hapi:20151223"
 }

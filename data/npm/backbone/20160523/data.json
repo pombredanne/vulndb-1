@@ -19,8 +19,14 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 108
+		"NSP": 108,
+		"ALTERNATIVE": [
+			"SNYK-JS-BACKBONE-10110"
+		]
 	},
 	"patches": [],
-	"moduleName": "backbone"
+	"moduleName": "backbone",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:backbone:20160523"
 }

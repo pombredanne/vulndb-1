@@ -1,0 +1,30 @@
+{
+	"title": "Downloads Resources over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2017-01-01T16:41:47.000Z",
+	"modificationTime": "2017-01-01T16:41:47.000Z",
+	"publicationTime": "2017-01-04T04:05:26.000Z",
+	"disclosureTime": "2017-01-01T16:41:47.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 225,
+		"ALTERNATIVE": [
+			"SNYK-JS-JVMINSTALL-10298"
+		]
+	},
+	"patches": [],
+	"moduleName": "jvminstall",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jvminstall:20170101"
+}

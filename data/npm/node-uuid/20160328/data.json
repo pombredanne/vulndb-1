@@ -18,17 +18,25 @@
 			"CWE-330"
 		],
 		"CVE": [],
-		"NSP": 93
+		"NSP": 93,
+		"ALTERNATIVE": [
+			"SNYK-JS-NODEUUID-10089"
+		]
 	},
-	"patches": [{
-		"urls": [
-			"file://node-uuid_20160328_0_0_616ad3800f35cf58089215f420db9654801a5a02.patch"
-		],
-		"version": "<=1.4.3 >=1.4.2",
-		"modificationTime": "2016-07-19T13:00:00.396Z",
-		"comments": [],
-		"id": "patch:npm:node-uuid:20160328:0"
-	}],
+	"patches": [
+		{
+			"urls": [
+				"file://node-uuid_20160328_0_0_616ad3800f35cf58089215f420db9654801a5a02.patch"
+			],
+			"version": "<=1.4.3 >=1.4.2",
+			"modificationTime": "2016-07-19T13:00:00.396Z",
+			"comments": [],
+			"id": "patch:npm:node-uuid:20160328:0"
+		}
+	],
 	"moduleName": "node-uuid",
-	"disclosureTime": "2016-03-28T21:29:30.000Z"
+	"disclosureTime": "2016-03-28T21:29:30.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:node-uuid:20160328"
 }

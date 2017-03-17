@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "newrelic_rpm",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 3.5.3.25"
+		],
+		"vulnerable": [
+			"< 3.5.3.25"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-0284"
+		],
+		"OSVDB": [
+			"OSVDB-90189"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:59.000Z",
+	"modificationTime": "2016-09-21T12:36:59.000Z",
+	"publicationTime": "2012-12-05T22:00:00.000Z",
+	"disclosureTime": "2012-12-05T22:00:00.000Z",
+	"id": "SNYK-RUBY-NEWRELICRPM-20042"
+}

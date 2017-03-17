@@ -16,7 +16,10 @@
 	"identifiers": {
 		"CWE": [],
 		"CVE": [],
-		"NSP": 80
+		"NSP": 80,
+		"ALTERNATIVE": [
+			"SNYK-JS-I18NNODEANGULAR-10082"
+		]
 	},
 	"patches": [
 		{
@@ -30,5 +33,8 @@
 		}
 	],
 	"moduleName": "i18n-node-angular",
-	"disclosureTime": "2016-01-25T17:56:55.455Z"
+	"disclosureTime": "2016-01-25T17:56:55.455Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:i18n-node-angular:20160125"
 }

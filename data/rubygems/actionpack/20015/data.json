@@ -1,0 +1,34 @@
+{
+	"title": "HTTP Response Splitting",
+	"credit": [
+		"Brent Miller"
+	],
+	"description": "file://README.md",
+	"moduleName": "actionpack",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 2.3.13"
+		],
+		"vulnerable": [
+			"< 2.3.13"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2011-3186"
+		],
+		"OSVDB": [
+			"OSVDB-74616"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:40.000Z",
+	"modificationTime": "2016-10-10T12:36:40.000Z",
+	"publicationTime": "2011-08-15T21:00:00.000Z",
+	"disclosureTime": "2011-08-15T21:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIONPACK-20015"
+}

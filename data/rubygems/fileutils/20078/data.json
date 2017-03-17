@@ -1,0 +1,28 @@
+{
+	"title": "Directory Hijacking",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "fileutils",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"OSVDB": [
+			"OSVDB-90716"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:52.000Z",
+	"modificationTime": "2016-09-21T12:36:52.000Z",
+	"publicationTime": "2013-02-27T22:00:00.000Z",
+	"disclosureTime": "2013-02-27T22:00:00.000Z",
+	"id": "SNYK-RUBY-FILEUTILS-20078"
+}

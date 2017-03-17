@@ -1,0 +1,31 @@
+{
+	"title": "Uninitialized Memory Exposure",
+	"credit": [
+		"Сковорода Никита Андреевич (ChALkeR)"
+	],
+	"creationTime": "2016-09-19T00:00:00.000Z",
+	"modificationTime": "2016-09-19T00:00:00.000Z",
+	"publicationTime": "2016-11-10T00:00:00.000Z",
+	"disclosureTime": "2016-02-12T00:00:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.8.4",
+		"unaffected": ">=0.8.6"
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-201"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-LIFESTAR-10172"
+		]
+	},
+	"patches": [],
+	"moduleName": "life_star",
+	"packageManager": "npm",
+	"language": "js",
+	"id": "npm:life_star:20160212"
+}

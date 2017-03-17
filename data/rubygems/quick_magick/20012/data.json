@@ -1,0 +1,28 @@
+{
+	"title": "Arbitrary Command Injection",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "quick_magick",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"OSVDB": [
+			"OSVDB-106954"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:37:02.000Z",
+	"modificationTime": "2016-09-21T12:37:02.000Z",
+	"publicationTime": "2011-01-11T22:00:00.000Z",
+	"disclosureTime": "2011-01-11T22:00:00.000Z",
+	"id": "SNYK-RUBY-QUICKMAGICK-20012"
+}

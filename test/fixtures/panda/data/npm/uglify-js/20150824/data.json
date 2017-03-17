@@ -1,5 +1,5 @@
 {
-	"title": "uglify-js incorrectly handles non-boolean comparisons during minification",
+	"title": "Improper minification of non-boolean comparisons",
 	"credit": [
 		"Tom MacWright"
 	],
@@ -15,12 +15,11 @@
 			"CWE-95"
 		],
 		"CVE": [],
-		"NSP": 39
+		"NSP": 39,
+		"ALTERNATIVE": [
+			"SNYK-JS-UGLIFYJS-10041"
+		]
 	},
-	"info": [
-		"https://github.com/mishoo/UglifyJS2/issues/751",
-		"https://github.com/tmcw/mdast-uglify-bug"
-	],
 	"patches": [
 		{
 			"urls": [
@@ -35,5 +34,9 @@
 	"moduleName": "uglify-js",
 	"creationTime": "2015-08-24T09:29:10.000Z",
 	"publicationTime": "2015-08-24T09:29:10.000Z",
-	"modificationTime": "2015-11-06T02:09:36.180Z"
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-08-24T09:29:10.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:uglify-js:20150824"
 }

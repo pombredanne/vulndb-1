@@ -19,8 +19,14 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 135
+		"NSP": 135,
+		"ALTERNATIVE": [
+			"SNYK-JS-SANITIZEHTML-10127"
+		]
 	},
 	"patches": [],
-	"moduleName": "sanitize-html"
+	"moduleName": "sanitize-html",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:sanitize-html:20160801"
 }

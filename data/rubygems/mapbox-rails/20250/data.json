@@ -1,0 +1,30 @@
+{
+	"title": "Content Injection via TileJSON Name",
+	"credit": [
+		"Abdullah (enderun07)"
+	],
+	"description": "file://README.md",
+	"moduleName": "mapbox-rails",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-74"
+		],
+		"OSVDB": [
+			"OSVDB-132871"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N",
+	"severity": "low",
+	"creationTime": "2016-09-21T12:36:58.000Z",
+	"modificationTime": "2016-09-21T12:36:58.000Z",
+	"publicationTime": "2016-01-11T22:00:00.000Z",
+	"disclosureTime": "2016-01-11T22:00:00.000Z",
+	"id": "SNYK-RUBY-MAPBOXRAILS-20250"
+}

@@ -1,0 +1,37 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Sascha Depold"
+	],
+	"description": "file://README.md",
+	"moduleName": "actionpack",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 3.0.10",
+			"~> 2.3.13",
+			"~> 3.1.0.rc5"
+		],
+		"vulnerable": [
+			"< 3.0.10",
+			">= 2.3.0, < 2.3.13",
+			">=3.1.0.rc1, <3.1.0.rc5"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2011-2931"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:41.000Z",
+	"modificationTime": "2016-12-26T12:36:41.000Z",
+	"publicationTime": "2016-12-26T21:00:00.000Z",
+	"disclosureTime": "2012-08-08T21:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIONPACK-20281"
+}

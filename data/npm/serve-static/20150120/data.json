@@ -13,12 +13,17 @@
 			"CWE-211"
 		],
 		"CVE": [],
-		"NSP": ""
+		"ALTERNATIVE": [
+			"SNYK-JS-SERVESTATIC-10034"
+		]
 	},
 	"patches": [],
 	"moduleName": "serve-static",
 	"creationTime": "2015-01-20T04:46:45.000Z",
 	"publicationTime": "2015-01-20T04:46:45.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2015-01-20T04:46:45.000Z"
+	"disclosureTime": "2015-01-20T04:46:45.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:serve-static:20150120"
 }

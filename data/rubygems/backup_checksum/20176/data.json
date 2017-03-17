@@ -1,0 +1,28 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "backup_checksum",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"vulnerable": [
+			">= 0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"OSVDB": [
+			"OSVDB-108570"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:46.000Z",
+	"modificationTime": "2016-09-21T12:36:46.000Z",
+	"publicationTime": "2014-06-29T21:00:00.000Z",
+	"disclosureTime": "2014-06-29T21:00:00.000Z",
+	"id": "SNYK-RUBY-BACKUPCHECKSUM-20176"
+}

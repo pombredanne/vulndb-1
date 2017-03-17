@@ -19,27 +19,30 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 106
+		"NSP": 106,
+		"ALTERNATIVE": [
+			"SNYK-JS-NEGOTIATOR-10104"
+		]
 	},
 	"patches": [
 		{
- 			"urls": [
- 				"file://negotiator_20160616_0_0_26a05ec15cf7d1fa56000d66ebe9c9a1a62cb75c.patch"
- 			],
- 			"version": "0.6.0",
- 			"modificationTime": "2016-07-18T12:00:00.000Z",
- 			"comments": [],
- 			"id": "patch:npm:negotiator:20160616:0"
- 		},
+			"urls": [
+				"file://negotiator_20160616_0_0_26a05ec15cf7d1fa56000d66ebe9c9a1a62cb75c.patch"
+			],
+			"version": "0.6.0",
+			"modificationTime": "2016-07-18T12:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:negotiator:20160616:0"
+		},
 		{
- 			"urls": [
- 				"file://negotiator_20160616_0_1_26a05ec15cf7d1fa56000d66ebe9c9a1a62cb75c.patch"
- 			],
- 			"version": "<= 0.5.3 > 0.4.7",
- 			"modificationTime": "2016-07-18T12:00:00.000Z",
- 			"comments": [],
- 			"id": "patch:npm:negotiator:20160616:1"
- 		},
+			"urls": [
+				"file://negotiator_20160616_0_1_26a05ec15cf7d1fa56000d66ebe9c9a1a62cb75c.patch"
+			],
+			"version": "<= 0.5.3 > 0.4.7",
+			"modificationTime": "2016-07-18T12:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:negotiator:20160616:1"
+		},
 		{
 			"urls": [
 				"file://negotiator_20160616_0_2_26a05ec15cf7d1fa56000d66ebe9c9a1a62cb75c.patch"
@@ -59,5 +62,8 @@
 			"id": "patch:npm:negotiator:20160616:3"
 		}
 	],
-	"moduleName": "negotiator"
+	"moduleName": "negotiator",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:negotiator:20160616"
 }

@@ -15,12 +15,18 @@
 		"CVE": [
 			"CVE-2013-7370"
 		],
-		"NSP": 3
+		"NSP": 3,
+		"ALTERNATIVE": [
+			"SNYK-JS-CONNECT-10005"
+		]
 	},
 	"patches": [],
 	"moduleName": "connect",
 	"creationTime": "2013-06-30T22:08:59.000Z",
 	"publicationTime": "2013-06-30T22:08:59.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2013-06-30T22:08:59.000Z"
+	"disclosureTime": "2013-06-30T22:08:59.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:connect:20130701"
 }

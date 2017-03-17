@@ -1,0 +1,30 @@
+{
+	"title": "Resources downloaded over insecure protocol",
+	"moduleName": "galenframework-cli",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 170,
+		"ALTERNATIVE": [
+			"SNYK-JS-GALENFRAMEWORKCLI-10222"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": ">=2.3.1",
+		"vulnerable": "<2.3.1"
+	},
+	"credit": [
+		"Adam Baldwin"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"disclosureTime": "2016-11-01T00:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-06T11:33:44.856Z",
+	"modificationTime": "2016-12-06T11:33:44.856Z",
+	"creationTime": "2016-12-06T11:33:44.856Z",
+	"id": "npm:galenframework-cli:20161101"
+}

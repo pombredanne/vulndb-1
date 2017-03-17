@@ -1,0 +1,32 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Jared Folkins"
+	],
+	"creationTime": "2016-09-14T00:00:00.000Z",
+	"modificationTime": "2016-10-17T00:00:00.000Z",
+	"publicationTime": "2016-10-17T00:00:00.000Z",
+	"disclosureTime": "2016-08-09T00:00:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": ">=1.10.4 <1.16.0",
+		"unaffected": ">=1.16.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"NSP": 145,
+		"ALTERNATIVE": [
+			"SNYK-JS-PLOTLYJS-10154"
+		]
+	},
+	"patches": [],
+	"moduleName": "plotly.js",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:plotly.js:20160808"
+}

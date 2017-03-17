@@ -1,0 +1,39 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"John Hawthorn"
+	],
+	"description": "file://README.md",
+	"moduleName": "spree",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 2.2.13",
+			"~> 2.3.12",
+			"~> 2.4.9",
+			">= 3.0.3"
+		],
+		"vulnerable": [
+			"< 3.0.3, >= 2.5",
+			"< 2.4.9, >= 2.4",
+			"< 2.3.12, >= 2.3",
+			"< 2.2.13"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"OSVDB": [
+			"OSVDB-125699"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:08.000Z",
+	"modificationTime": "2016-09-21T12:37:08.000Z",
+	"publicationTime": "2015-07-27T21:00:00.000Z",
+	"disclosureTime": "2015-07-27T21:00:00.000Z",
+	"id": "SNYK-RUBY-SPREE-20237"
+}

@@ -1,0 +1,29 @@
+{
+	"title": "CSS Injection",
+	"credit": [
+		"Jared Folkins"
+	],
+	"creationTime": "2016-09-14T00:00:00.000Z",
+	"modificationTime": "2016-10-17T00:00:00.000Z",
+	"publicationTime": "2016-10-17T00:00:00.000Z",
+	"disclosureTime": "2016-08-09T00:00:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.16.0",
+		"unaffected": ">=1.16.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-PLOTLYJS-10155"
+		]
+	},
+	"patches": [],
+	"moduleName": "plotly.js",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:plotly.js:20160808-1"
+}

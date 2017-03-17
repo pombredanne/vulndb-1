@@ -17,12 +17,18 @@
 		"CVE": [
 			"CVE-2015-6584"
 		],
-		"NSP": 5
+		"NSP": 5,
+		"ALTERNATIVE": [
+			"SNYK-JS-DATATABLES-10042"
+		]
 	},
 	"patches": [],
 	"moduleName": "datatables",
 	"creationTime": "2015-09-18T09:29:10.000Z",
 	"publicationTime": "2015-09-18T09:29:10.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2015-09-18T09:29:10.000Z"
+	"disclosureTime": "2015-09-18T09:29:10.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:datatables:20150918"
 }

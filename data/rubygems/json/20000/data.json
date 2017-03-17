@@ -1,0 +1,31 @@
+{
+	"title": "Denial of Service (DoS) via Buffer Overflow",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "json",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 1.1.0"
+		],
+		"vulnerable": [
+			"< 1.1.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"OSVDB": [
+			"OSVDB-101157"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:55.000Z",
+	"modificationTime": "2016-09-21T12:36:55.000Z",
+	"publicationTime": "2007-05-20T21:00:00.000Z",
+	"disclosureTime": "2007-05-20T21:00:00.000Z",
+	"id": "SNYK-RUBY-JSON-20000"
+}

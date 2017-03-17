@@ -16,12 +16,18 @@
 		"CVE": [
 			"CVE-2015-1840"
 		],
-		"NSP": 15
+		"NSP": 15,
+		"ALTERNATIVE": [
+			"SNYK-JS-JQUERYUJS-10039"
+		]
 	},
 	"patches": [],
 	"moduleName": "jquery-ujs",
 	"creationTime": "2015-06-24T06:00:00.000Z",
 	"publicationTime": "2015-06-24T06:00:00.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2015-06-24T06:00:00.000Z"
+	"disclosureTime": "2015-06-24T06:00:00.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jquery-ujs:20150624"
 }

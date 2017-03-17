@@ -18,9 +18,15 @@
 			"CWE-319"
 		],
 		"CVE": [],
-		"NSP": 85
+		"NSP": 85,
+		"ALTERNATIVE": [
+			"SNYK-JS-GRUNTGHPAGES-10086"
+		]
 	},
 	"patches": [],
 	"moduleName": "grunt-gh-pages",
-	"disclosureTime": "2016-03-16T16:29:31.778Z"
+	"disclosureTime": "2016-03-16T16:29:31.778Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:grunt-gh-pages:20160316"
 }

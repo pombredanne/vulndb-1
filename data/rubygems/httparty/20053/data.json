@@ -1,0 +1,34 @@
+{
+	"title": "Arbitrary Code Execution",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "httparty",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.10.0"
+		],
+		"vulnerable": [
+			"< 0.10.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-1801"
+		],
+		"OSVDB": [
+			"OSVDB-90741"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:54.000Z",
+	"modificationTime": "2016-09-21T12:36:54.000Z",
+	"publicationTime": "2013-01-13T22:00:00.000Z",
+	"disclosureTime": "2013-01-13T22:00:00.000Z",
+	"id": "SNYK-RUBY-HTTPARTY-20053"
+}

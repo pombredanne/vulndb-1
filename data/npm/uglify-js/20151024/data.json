@@ -18,7 +18,10 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 48
+		"NSP": 48,
+		"ALTERNATIVE": [
+			"SNYK-JS-UGLIFYJS-10059"
+		]
 	},
 	"patches": [
 		{
@@ -45,5 +48,8 @@
 		}
 	],
 	"moduleName": "uglify-js",
-	"disclosureTime": "2015-10-24T21:01:32.155Z"
+	"disclosureTime": "2015-10-24T21:01:32.155Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:uglify-js:20151024"
 }

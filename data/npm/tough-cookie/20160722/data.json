@@ -19,7 +19,10 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 130
+		"NSP": 130,
+		"ALTERNATIVE": [
+			"SNYK-JS-TOUGHCOOKIE-10119"
+		]
 	},
 	"patches": [
 		{
@@ -32,5 +35,8 @@
 			"id": "patch:npm:tough-cookie:20160722:0"
 		}
 	],
-	"moduleName": "tough-cookie"
+	"moduleName": "tough-cookie",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:tough-cookie:20160722"
 }

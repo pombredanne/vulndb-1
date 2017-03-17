@@ -20,9 +20,15 @@
 		"CVE": [
 			"CVE-2014-8881"
 		],
-		"NSP": 47
+		"NSP": 47,
+		"ALTERNATIVE": [
+			"SNYK-JS-BLEACH-10062"
+		]
 	},
 	"patches": [],
 	"moduleName": "bleach",
-	"disclosureTime": "2015-10-24T20:46:42.522Z"
+	"disclosureTime": "2015-10-24T20:46:42.522Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:bleach:20151024"
 }

@@ -1,0 +1,32 @@
+{
+	"title": "Arbitrary Code Injection",
+	"credit": [
+		"micaksica"
+	],
+	"creationTime": "2016-09-19T00:00:00.000Z",
+	"modificationTime": "2016-10-17T00:00:00.000Z",
+	"publicationTime": "2016-10-17T00:00:00.000Z",
+	"disclosureTime": "2016-08-30T00:00:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=6.0.4",
+		"unaffected": ">=6.0.5"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [],
+		"NSP": 143,
+		"ALTERNATIVE": [
+			"SNYK-JS-POUCHDB-10153"
+		]
+	},
+	"patches": [],
+	"moduleName": "pouchdb",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:pouchdb:20160830"
+}

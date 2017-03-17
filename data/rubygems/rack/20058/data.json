@@ -1,0 +1,38 @@
+{
+	"title": "Arbitrary File Disclosure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "rack",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 1.4.5",
+			">= 1.5.2"
+		],
+		"vulnerable": [
+			"< 1.5.2, >= 1.5",
+			"< 1.4.5"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2013-0262"
+		],
+		"OSVDB": [
+			"OSVDB-89938"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:03.000Z",
+	"modificationTime": "2016-09-21T12:37:03.000Z",
+	"publicationTime": "2013-02-06T22:00:00.000Z",
+	"disclosureTime": "2013-02-06T22:00:00.000Z",
+	"id": "SNYK-RUBY-RACK-20058"
+}

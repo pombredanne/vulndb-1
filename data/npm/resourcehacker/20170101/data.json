@@ -1,0 +1,30 @@
+{
+	"title": "Downloads Resources over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2017-01-01T19:29:52.000Z",
+	"modificationTime": "2017-01-01T19:29:52.000Z",
+	"publicationTime": "2017-01-04T04:15:36.000Z",
+	"disclosureTime": "2017-01-01T19:29:52.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 254,
+		"ALTERNATIVE": [
+			"SNYK-JS-RESOURCEHACKER-10312"
+		]
+	},
+	"patches": [],
+	"moduleName": "resourcehacker",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:resourcehacker:20170101"
+}

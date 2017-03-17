@@ -19,8 +19,14 @@
 			"CWE-80"
 		],
 		"CVE": [],
-		"NSP": 139
+		"NSP": 139,
+		"ALTERNATIVE": [
+			"SNYK-JS-PIVOTTABLE-10132"
+		]
 	},
 	"patches": [],
-	"moduleName": "pivottable"
+	"moduleName": "pivottable",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:pivottable:20160817"
 }

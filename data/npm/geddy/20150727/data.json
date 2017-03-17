@@ -16,7 +16,10 @@
 		"CVE": [
 			"CVE-2015-5688"
 		],
-		"NSP": 10
+		"NSP": 10,
+		"ALTERNATIVE": [
+			"SNYK-JS-GEDDY-10040"
+		]
 	},
 	"patches": [
 		{
@@ -35,5 +38,8 @@
 	"creationTime": "2015-07-27T12:33:48.000Z",
 	"publicationTime": "2015-07-27T12:33:48.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2015-07-27T12:33:48.000Z"
+	"disclosureTime": "2015-07-27T12:33:48.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:geddy:20150727"
 }

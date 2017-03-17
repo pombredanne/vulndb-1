@@ -1,0 +1,50 @@
+{
+	"title": "Regular Expression Denial of Service",
+	"moduleName": "moment",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-MOMENT-10164"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"vulnerable": "<2.15.2",
+		"unaffected": ">=2.15.2"
+	},
+	"credit": [
+		"Snyk Security Research Team"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"disclosureTime": "2016-10-18T21:00:00.000Z",
+	"patches": [
+    {
+			"urls": [
+				"file://moment_20161019_0_1.patch"
+			],
+			"version": "<2.15.2 >=2.14.0",
+			"modificationTime": "2016-10-24T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:moment:20161019:0"
+		},
+    {
+			"urls": [
+				"file://moment_20161019_0_0.patch"
+			],
+			"version": "<2.14.0 >=2.12.0",
+			"modificationTime": "2016-10-24T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:moment:20161019:1"
+		}
+	],
+	"publicationTime": "2016-10-24T06:57:59.675Z",
+	"modificationTime": "2016-10-23T06:57:59.675Z",
+	"creationTime": "2016-10-23T06:57:59.675Z",
+	"id": "npm:moment:20161019"
+}

@@ -16,7 +16,10 @@
 			"CVE-2013-3364",
 			"CVE-2013-7380"
 		],
-		"NSP": 7
+		"NSP": 7,
+		"ALTERNATIVE": [
+			"SNYK-JS-EPIMAGECONVERT-10001"
+		]
 	},
 	"patches": [
 		{
@@ -35,5 +38,8 @@
 	"creationTime": "2013-05-06T06:33:48.000Z",
 	"publicationTime": "2013-05-06T06:33:48.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2013-05-06T06:33:48.000Z"
+	"disclosureTime": "2013-05-06T06:33:48.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:ep_imageconvert:20130506"
 }

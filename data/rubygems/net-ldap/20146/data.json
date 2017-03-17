@@ -1,0 +1,34 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "net-ldap",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 0.6.0"
+		],
+		"vulnerable": [
+			"< 0.6.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-0083"
+		],
+		"OSVDB": [
+			"OSVDB-106108"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "low",
+	"creationTime": "2016-09-21T12:36:59.000Z",
+	"modificationTime": "2016-09-21T12:36:59.000Z",
+	"publicationTime": "2014-02-12T22:00:00.000Z",
+	"disclosureTime": "2014-02-12T22:00:00.000Z",
+	"id": "SNYK-RUBY-NETLDAP-20146"
+}

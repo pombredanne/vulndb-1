@@ -19,8 +19,14 @@
 			"CWE-80"
 		],
 		"CVE": [],
-		"NSP": 138
+		"NSP": 138,
+		"ALTERNATIVE": [
+			"SNYK-JS-C3-10131"
+		]
 	},
 	"patches": [],
-	"moduleName": "c3"
+	"moduleName": "c3",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:c3:20160817"
 }

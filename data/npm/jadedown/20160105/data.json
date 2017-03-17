@@ -18,9 +18,15 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 52
+		"NSP": 52,
+		"ALTERNATIVE": [
+			"SNYK-JS-JADEDOWN-10076"
+		]
 	},
 	"patches": [],
 	"moduleName": "jadedown",
-	"disclosureTime": "2016-01-05T23:00:45.777Z"
+	"disclosureTime": "2016-01-05T23:00:45.777Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:jadedown:20160105"
 }

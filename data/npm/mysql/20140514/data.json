@@ -1,0 +1,31 @@
+{
+	"title": "Unauthorized SSL Connection to to lack of cert authentication",
+	"moduleName": "mysql",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-285"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-MYSQL-10263"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=2.3.0",
+		"vulnerable": "<2.3.0 >=2.0.0"
+	},
+	"credit": [
+		"Douglas Wilson"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+	"disclosureTime": "2014-05-13T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-04T18:36:45.767Z",
+	"modificationTime": "2016-12-28T11:36:45.767Z",
+	"creationTime": "2016-12-28T11:36:45.767Z",
+	"id": "npm:mysql:20140514"
+}

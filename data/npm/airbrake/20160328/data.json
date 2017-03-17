@@ -18,9 +18,15 @@
 			"CWE-200"
 		],
 		"CVE": [],
-		"NSP": 96
+		"NSP": 96,
+		"ALTERNATIVE": [
+			"SNYK-JS-AIRBRAKE-10090"
+		]
 	},
 	"patches": [],
 	"moduleName": "airbrake",
-	"disclosureTime": "2016-03-28T22:48:46.000Z"
+	"disclosureTime": "2016-03-28T22:48:46.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:airbrake:20160328"
 }

@@ -1,0 +1,33 @@
+{
+	"title": "Denial of Service (DoS)",
+	"credit": [
+		"Egor Homakov"
+	],
+	"description": "file://README.md",
+	"moduleName": "moped",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 1.5.3",
+			">= 2.0.5"
+		],
+		"vulnerable": [
+			"< 2.0.5, >= 1.6",
+			"< 1.5.3"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-4410"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:58.000Z",
+	"modificationTime": "2016-09-21T12:36:58.000Z",
+	"publicationTime": "2015-06-03T21:00:00.000Z",
+	"disclosureTime": "2015-06-03T21:00:00.000Z",
+	"id": "SNYK-RUBY-MOPED-20291"
+}

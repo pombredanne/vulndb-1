@@ -1,0 +1,30 @@
+{
+	"title": "Downloads Resources over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2017-01-01T19:32:40.000Z",
+	"modificationTime": "2017-01-01T19:32:40.000Z",
+	"publicationTime": "2017-01-04T04:18:11.000Z",
+	"disclosureTime": "2017-01-01T19:32:40.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 256,
+		"ALTERNATIVE": [
+			"SNYK-JS-SFML-10314"
+		]
+	},
+	"patches": [],
+	"moduleName": "sfml",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:sfml:20170101"
+}

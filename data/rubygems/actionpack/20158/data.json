@@ -1,0 +1,35 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Ville Lautanala"
+	],
+	"description": "file://README.md",
+	"moduleName": "actionpack",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 3.2.18",
+			"~> 4.0.5",
+			">= 4.1.1"
+		],
+		"vulnerable": [
+			"< 4.1.1, >= 4.1",
+			"< 4.0.5, >= 3.3",
+			"< 3.2.18"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-0130"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:36:39.000Z",
+	"modificationTime": "2016-09-21T12:36:39.000Z",
+	"publicationTime": "2014-05-05T21:00:00.000Z",
+	"disclosureTime": "2014-05-05T21:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIONPACK-20158"
+}

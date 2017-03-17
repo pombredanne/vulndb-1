@@ -1,0 +1,39 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Matthew Beale"
+	],
+	"description": "file://README.md",
+	"moduleName": "ember-source",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 1.10.1",
+			"~> 1.11.2",
+			">= 1.12.0"
+		],
+		"unaffected": [
+			"< 1.10.0"
+		],
+		"vulnerable": [
+			"< 1.11.2, >= 1.11",
+			"< 1.10.1, >= 1.10.0"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2015-1866"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:50.000Z",
+	"modificationTime": "2016-09-21T12:36:50.000Z",
+	"publicationTime": "2015-04-13T21:00:00.000Z",
+	"disclosureTime": "2015-04-13T21:00:00.000Z",
+	"id": "SNYK-RUBY-EMBERSOURCE-20213"
+}

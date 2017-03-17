@@ -1,0 +1,33 @@
+{
+	"title": "Local Plaintext Credential Disclosure",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "bundler",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 1.1.rc"
+		],
+		"vulnerable": [
+			"< 1.1.rc"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"OSVDB": [
+			"OSVDB-115917"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:47.000Z",
+	"modificationTime": "2016-09-21T12:36:47.000Z",
+	"publicationTime": "2011-09-19T21:00:00.000Z",
+	"disclosureTime": "2011-09-19T21:00:00.000Z",
+	"id": "SNYK-RUBY-BUNDLER-20018"
+}

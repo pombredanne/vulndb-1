@@ -1,0 +1,33 @@
+{
+	"title": "Cross-site Scripting (XSS)",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "loofah",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">=  0.4.6"
+		],
+		"vulnerable": [
+			"< 0.4.6"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"OSVDB": [
+			"OSVDB-90945"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:57.000Z",
+	"modificationTime": "2016-09-21T12:36:57.000Z",
+	"publicationTime": "2012-09-07T21:00:00.000Z",
+	"disclosureTime": "2012-09-07T21:00:00.000Z",
+	"id": "SNYK-RUBY-LOOFAH-20039"
+}

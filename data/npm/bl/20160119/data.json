@@ -1,0 +1,41 @@
+{
+	"title": "Uninitialized Memory Exposure",
+	"credit": [
+		"Feross Aboukhadijeh"
+	],
+	"creationTime": "2016-09-11T17:00:00.000Z",
+	"modificationTime": "2016-09-11T17:00:00.000Z",
+	"publicationTime": "2016-09-18T17:00:00.000Z",
+	"disclosureTime": "2016-01-19T18:58:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<0.9.5 || 1.0.0",
+		"unaffected": ">1.0.0 || 0.9.5"
+	},
+	"CVSSv3": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-201"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-BL-10138"
+		]
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://bl_20160911_0_0_061279d92f45f4e04f3cb252db3816feb4bc6f33.patch"
+			],
+			"version": "0.9.4 || 1.0.0",
+			"modificationTime": "2016-09-11T00:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:bl:20160119:0"
+		}
+	],
+	"moduleName": "bl",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:bl:20160119"
+}

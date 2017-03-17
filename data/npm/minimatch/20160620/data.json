@@ -19,7 +19,10 @@
 			"CWE-400"
 		],
 		"CVE": [],
-		"NSP": 118
+		"NSP": 118,
+		"ALTERNATIVE": [
+			"SNYK-JS-MINIMATCH-10105"
+		]
 	},
 	"patches": [
 		{
@@ -41,5 +44,8 @@
 			"id": "patch:npm:minimatch:20160620:1"
 		}
 	],
-	"moduleName": "minimatch"
+	"moduleName": "minimatch",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:minimatch:20160620"
 }

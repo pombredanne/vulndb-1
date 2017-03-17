@@ -16,12 +16,18 @@
 			"CWE-90"
 		],
 		"CVE": [],
-		"NSP": 19
+		"NSP": 19,
+		"ALTERNATIVE": [
+			"SNYK-JS-LDAPAUTH-10044"
+		]
 	},
 	"patches": [],
 	"moduleName": "ldapauth",
 	"creationTime": "2015-09-18T09:30:10.000Z",
 	"publicationTime": "2015-09-18T09:30:10.000Z",
 	"modificationTime": "2015-11-06T02:09:36.180Z",
-	"disclosureTime": "2015-09-18T09:30:10.000Z"
+	"disclosureTime": "2015-09-18T09:30:10.000Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:ldapauth:20150918"
 }

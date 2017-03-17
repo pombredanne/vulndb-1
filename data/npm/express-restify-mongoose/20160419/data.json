@@ -19,8 +19,14 @@
 			"CWE-200"
 		],
 		"CVE": [],
-		"NSP": 92
+		"NSP": 92,
+		"ALTERNATIVE": [
+			"SNYK-JS-EXPRESSRESTIFYMONGOOSE-10109"
+		]
 	},
 	"patches": [],
-	"moduleName": "express-restify-mongoose"
+	"moduleName": "express-restify-mongoose",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:express-restify-mongoose:20160419"
 }

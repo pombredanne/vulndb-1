@@ -1,0 +1,30 @@
+{
+	"title": "Downloads Resources over insecure protocol",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2017-01-02T04:10:08.000Z",
+	"modificationTime": "2017-01-02T04:10:08.000Z",
+	"publicationTime": "2017-01-04T04:26:05.000Z",
+	"disclosureTime": "2016-11-02T04:10:08.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<0.1.1",
+		"unaffected": ">=0.1.1"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 276,
+		"ALTERNATIVE": [
+			"SNYK-JS-LIMBUSBUILDGEN-10328"
+		]
+	},
+	"patches": [],
+	"moduleName": "limbus-buildgen",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:limbus-buildgen:20161202"
+}

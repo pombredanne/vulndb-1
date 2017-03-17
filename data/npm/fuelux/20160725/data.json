@@ -1,16 +1,16 @@
 {
-	"title": "XSS in Pillbox",
+	"title": "Cross-site Scripting (XSS) in Pillbox",
 	"credit": [
 		"Keenan Jaenicke"
 	],
 	"creationTime": "2016-07-25T22:53:17.242Z",
-	"modificationTime": "2016-07-25T22:53:17.242Z",
+	"modificationTime": "2016-09-28T22:53:17.242Z",
 	"publicationTime": "2016-07-25T17:04:28.000Z",
 	"disclosureTime": "2016-07-25T17:04:28.000Z",
 	"description": "file://README.md",
 	"semver": {
-		"vulnerable": "*",
-		"unaffected": "<0.0.0"
+		"vulnerable": "<3.15.7",
+		"unaffected": ">=3.15.7"
 	},
 	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
 	"severity": "high",
@@ -19,8 +19,14 @@
 			"CWE-79"
 		],
 		"CVE": [],
-		"NSP": 133
+		"NSP": 133,
+		"ALTERNATIVE": [
+			"SNYK-JS-FUELUX-10124"
+		]
 	},
 	"patches": [],
-	"moduleName": "fuelux"
+	"moduleName": "fuelux",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:fuelux:20160725"
 }

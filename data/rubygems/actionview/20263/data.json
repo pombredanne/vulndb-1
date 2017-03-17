@@ -1,0 +1,38 @@
+{
+	"title": "Information Exposure",
+	"credit": [
+		"Jyoti Singh and Tobias Kraze"
+	],
+	"description": "file://README.md",
+	"moduleName": "actionview",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 3.2.22.2",
+			"~> 4.1.14, >= 4.1.14.2"
+		],
+		"unaffected": [
+			">= 4.2.0"
+		],
+		"vulnerable": [
+			"< 4.1.14.2, >= 3.2.23",
+			"< 3.2.22.2"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [
+			"CVE-2016-2097"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:36:42.000Z",
+	"modificationTime": "2016-09-21T12:36:42.000Z",
+	"publicationTime": "2016-02-28T22:00:00.000Z",
+	"disclosureTime": "2016-02-28T22:00:00.000Z",
+	"id": "SNYK-RUBY-ACTIONVIEW-20263"
+}

@@ -20,9 +20,11 @@
 			"CWE-78"
 		],
 		"CVE": [],
-		"NSP": 117
+		"NSP": 117,
+		"ALTERNATIVE": [
+			"SNYK-JS-SHELLQUOTE-10106"
+		]
 	},
-	
 	"patches": [
 		{
 			"urls": [
@@ -34,5 +36,8 @@
 			"id": "patch:npm:shell-quote:20160621:0"
 		}
 	],
-	"moduleName": "shell-quote"
+	"moduleName": "shell-quote",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:shell-quote:20160621"
 }

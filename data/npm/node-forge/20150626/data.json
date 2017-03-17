@@ -1,0 +1,29 @@
+{
+	"title": "Timing Attack due to unsafe HMAC comparison",
+	"moduleName": "node-forge",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-NODEFORGE-10217"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=0.6.33",
+		"vulnerable": "<0.6.33"
+	},
+	"credit": [
+		"Dave Longley"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+	"disclosureTime": "2015-06-25T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-26T14:45:40.050Z",
+	"modificationTime": "2016-12-26T14:45:40.050Z",
+	"creationTime": "2016-11-28T14:45:40.050Z",
+	"id": "npm:node-forge:20150626"
+}

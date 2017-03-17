@@ -1,0 +1,31 @@
+{
+	"title": "SQL Injection",
+	"moduleName": "knex",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-KNEX-10228"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=0.6.23 <0.7.0 || >= 0.7.6",
+		"vulnerable": "<0.6.23 || >=0.7.0 <0.7.6"
+	},
+	"credit": [
+		"Jorge Godoy"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+	"disclosureTime": "2015-04-12T21:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-20T16:43:39.695Z",
+	"modificationTime": "2016-12-14T14:43:39.695Z",
+	"creationTime": "2016-12-14T14:43:39.695Z",
+	"id": "npm:knex:20150413"
+}

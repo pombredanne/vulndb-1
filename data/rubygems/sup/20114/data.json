@@ -1,0 +1,33 @@
+{
+	"title": "Arbitrary Command Execution",
+	"credit": [
+		"Unknown"
+	],
+	"description": "file://README.md",
+	"moduleName": "sup",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			"~> 0.13.2.1",
+			">= 0.14.1.1"
+		],
+		"vulnerable": [
+			"< 0.14.1.1, >= 0.13.3",
+			"< 0.13.2.1"
+		]
+	},
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-4479"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N",
+	"severity": "medium",
+	"creationTime": "2016-09-21T12:37:10.000Z",
+	"modificationTime": "2016-09-21T12:37:10.000Z",
+	"publicationTime": "2013-10-28T22:00:00.000Z",
+	"disclosureTime": "2013-10-28T22:00:00.000Z",
+	"id": "SNYK-RUBY-SUP-20114"
+}

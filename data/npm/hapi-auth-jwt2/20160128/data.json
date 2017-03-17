@@ -18,9 +18,15 @@
 			"CWE-592"
 		],
 		"CVE": [],
-		"NSP": 81
+		"NSP": 81,
+		"ALTERNATIVE": [
+			"SNYK-JS-HAPIAUTHJWT2-10083"
+		]
 	},
 	"patches": [],
 	"moduleName": "hapi-auth-jwt2",
-	"disclosureTime": "2016-01-28T07:56:52.379Z"
+	"disclosureTime": "2016-01-28T07:56:52.379Z",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:hapi-auth-jwt2:20160128"
 }

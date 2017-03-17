@@ -19,7 +19,10 @@
 			"CWE-20"
 		],
 		"CVE": [],
-		"NSP": 121
+		"NSP": 121,
+		"ALTERNATIVE": [
+			"SNYK-JS-CALL-10112"
+		]
 	},
 	"patches": [
 		{
@@ -41,5 +44,8 @@
 			"id": "patch:npm:call:20160705:1"
 		}
 	],
-	"moduleName": "call"
+	"moduleName": "call",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:call:20160705"
 }

@@ -19,8 +19,14 @@
 			"CWE-59"
 		],
 		"CVE": [],
-		"NSP": 95
+		"NSP": 95,
+		"ALTERNATIVE": [
+			"SNYK-JS-CLI-10133"
+		]
 	},
 	"patches": [],
-	"moduleName": "cli"
+	"moduleName": "cli",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:cli:20160615"
 }

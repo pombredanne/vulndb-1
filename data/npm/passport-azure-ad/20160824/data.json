@@ -1,0 +1,34 @@
+{
+	"title": "Authentication Bypass",
+	"moduleName": "passport-azure-ad",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CVE-2016-7191"
+		],
+		"CVE": [
+			"CVE-2016-7191"
+		],
+    "NSP": 151,
+		"ALTERNATIVE": [
+			"SNYK-JS-PASSPORTAZUREAD-10220"
+		]
+	},
+	"severity": "high",
+	"semver": {
+		"unaffected": " <1.0.0 || >=1.4.6 <2.0.0 || >=2.0.1",
+		"vulnerable": "<1.4.6 >=1.0.0 || =2.0.0"
+	},
+	"credit": [
+		"Microsoft Azure AD Team"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N",
+	"disclosureTime": "2016-08-23T23:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2016-12-06T10:53:36.115Z",
+	"modificationTime": "2016-12-06T10:53:36.115Z",
+	"creationTime": "2016-12-06T10:53:36.115Z",
+	"id": "npm:passport-azure-ad:20160824"
+}

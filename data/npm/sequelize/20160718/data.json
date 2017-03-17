@@ -19,36 +19,44 @@
 			"CWE-89"
 		],
 		"CVE": [],
-		"NSP": 122
+		"NSP": 122,
+		"ALTERNATIVE": [
+			"SNYK-JS-SEQUELIZE-10113"
+		]
 	},
-	"patches": [{
-		"urls": [
-			"file://sequelize_20160718_0_0_f93af43a1d86400487f5e3d9762f1a4b7cf6b1e1.patch"
-		],
-		"version": "<= 3.23.4 > 3.20.0",
-		"modificationTime": "2016-07-20T12:00:00.000Z",
-		"comments": [],
-		"id": "patch:npm:sequelize:20160718:0"
-	},
-	{
-		"urls": [
-			"file://sequelize_20160718_0_1_f93af43a1d86400487f5e3d9762f1a4b7cf6b1e1.patch"
-		],
-		"version": "<= 3.20.0 > 3.19.3",
-		"modificationTime": "2016-07-20T12:00:00.000Z",
-		"comments": [],
-		"id": "patch:npm:sequelize:20160718:1"
-	},
-	{
-	    "urls": [
-				"file://sequelize_20160718_0_1_f93af43a1d86400487f5e3d9762f1a4b7cf6b1e1_w_20160329.patch"
-	    ],
-		"version": "<= 3.19.3 > 3.18.0",
-		"modificationTime": "2016-07-20T12:00:00.000Z",
-		"comments": [
-		         "also carries a fix for npm:sequelize:20160329"
+	"patches": [
+		{
+			"urls": [
+				"file://sequelize_20160718_0_0_f93af43a1d86400487f5e3d9762f1a4b7cf6b1e1.patch"
 			],
-		"id": "patch:npm:sequelize:20160718:2"
-		}],
-      "moduleName": "sequelize"
+			"version": "<= 3.23.4 > 3.20.0",
+			"modificationTime": "2016-07-20T12:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:sequelize:20160718:0"
+		},
+		{
+			"urls": [
+				"file://sequelize_20160718_0_1_f93af43a1d86400487f5e3d9762f1a4b7cf6b1e1.patch"
+			],
+			"version": "<= 3.20.0 > 3.19.3",
+			"modificationTime": "2016-07-20T12:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:sequelize:20160718:1"
+		},
+		{
+			"urls": [
+				"file://sequelize_20160718_0_1_f93af43a1d86400487f5e3d9762f1a4b7cf6b1e1_w_20160329.patch"
+			],
+			"version": "<= 3.19.3 > 3.18.0",
+			"modificationTime": "2016-07-20T12:00:00.000Z",
+			"comments": [
+				"also carries a fix for npm:sequelize:20160329"
+			],
+			"id": "patch:npm:sequelize:20160718:2"
+		}
+	],
+	"moduleName": "sequelize",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:sequelize:20160718"
 }

@@ -19,8 +19,14 @@
 			"CWE-208"
 		],
 		"CVE": [],
-		"NSP": 134
+		"NSP": 134,
+		"ALTERNATIVE": [
+			"SNYK-JS-COOKIESIGNATURE-10134"
+		]
 	},
 	"patches": [],
-	"moduleName": "cookie-signature"
+	"moduleName": "cookie-signature",
+	"language": "js",
+	"packageManager": "npm",
+	"id": "npm:cookie-signature:20160804"
 }

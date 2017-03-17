@@ -1,0 +1,31 @@
+{
+	"title": "SQL Injection",
+	"moduleName": "loopback-connector-postgresql",
+	"description": "file://README.md",
+	"language": "js",
+	"packageManager": "npm",
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": [],
+		"ALTERNATIVE": [
+			"SNYK-JS-LOOPBACKCONNECTORPOSTGRESQL-10258"
+		]
+	},
+	"severity": "medium",
+	"semver": {
+		"unaffected": ">=1.3.0",
+		"vulnerable": "<1.3.0"
+	},
+	"credit": [
+		"Raymond Feng"
+	],
+	"CVSSv3": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:N",
+	"disclosureTime": "2015-01-07T22:00:00.000Z",
+	"patches": [],
+	"publicationTime": "2017-01-04T18:22:12.631Z",
+	"modificationTime": "2016-12-27T12:22:12.631Z",
+	"creationTime": "2016-12-27T12:22:12.631Z",
+	"id": "npm:loopback-connector-postgresql:20150108"
+}

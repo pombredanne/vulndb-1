@@ -1,0 +1,33 @@
+{
+	"title": "Cross-Site Scripting (XSS)",
+	"credit": [
+		"Daniel LeCheminant"
+	],
+	"description": "file://README.md",
+	"moduleName": "redcarpet",
+	"language": "ruby",
+	"packageManager": "rubygems",
+	"semver": {
+		"patched": [
+			">= 3.2.3"
+		],
+		"vulnerable": [
+			"< 3.2.3"
+		]
+	},
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"OSVDB": [
+			"OSVDB-120415"
+		]
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+	"severity": "high",
+	"creationTime": "2016-09-21T12:37:05.000Z",
+	"modificationTime": "2016-09-21T12:37:05.000Z",
+	"publicationTime": "2015-04-06T21:00:00.000Z",
+	"disclosureTime": "2015-04-06T21:00:00.000Z",
+	"id": "SNYK-RUBY-REDCARPET-20212"
+}
